@@ -5,11 +5,14 @@ package-overrides.json
 package-main.json
 
 
-
 ### macOS ###
 *.DS_Store
 .AppleDouble
 .LSOverride
+
+# While the repo is set to public, these are assets that should not be shared.
+src/images/logos
+src/css/fonts
 
 # Icon must end with two \r
 Icon
