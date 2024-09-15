@@ -1,24 +1,7 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-import Navbar from "@ocdla/global-components/src/Navbar";
-import ContentRegion from "@ocdla/global-components/src/ContentRegion";
-import Legal from "@ocdla/global-components/src/Legal";
-import Link from "@ocdla/global-components/src/Defaults";
-import Sitemap from "@ocdla/global-components/src/Sitemap";
-import SitemapCategory from "@ocdla/global-components/src/SitemapCategory";
-import Social from "@ocdla/global-components/src/Social";
-import Contacts from "@ocdla/global-components/src/Contacts";
-import Logo from "@ocdla/global-components/src/Logo";
-import Navlink from "@ocdla/global-components/src/Navlink";
-import {DividerMobile, DividerDesktop} from "@ocdla/global-components/src/Dividers.jsx";
-import Search from "@ocdla/global-components/src/Search";
-import Profile from "@ocdla/global-components/src/Profile";
-import Button from "@ocdla/global-components/src/Button";
-import GoogleMaps from "@ocdla/global-components/src/GoogleMaps";
 
-export default function App({ headerPinned = false }) {
-
-
+export default function Home() {
     return (
         <>
             <section class="pb-32 bg-wb-black text-wb-white w-full">
@@ -52,7 +35,7 @@ export default function App({ headerPinned = false }) {
                     orchards. By partnering with growers who share our
                     passion for sustainability and excellence, we ensure
                     that every sip of our cider is a reflection of the rich,
-                    fertile Oregon landscape.
+                    fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
                 </p>
             </section>
 

@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     colors: {
       "wb-brown": "#794850", // ferra
+      "wb-cordovan": "#7D4F52",
       "wb-red": "#D0375C", // brick red
       "wb-lime": "#B5E179", // yellow green
       "wb-blue": "#394657", // oxford blue
@@ -21,7 +22,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Open Sans", "Verdana", ...defaultTheme.fontFamily.sans],
+        sans: ["Open Sans", "Tienne", ...defaultTheme.fontFamily.sans],
       },
     },
   },
