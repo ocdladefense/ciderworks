@@ -12,7 +12,7 @@ export default function App() {
     return (
         <>
             <Header />
-            <main class="container mx-auto p-4 pb-16 lg:p-8 lg:pb-32">
+            <main>
                 <Home />
             </main>
             <Footer />
