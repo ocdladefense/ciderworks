@@ -25,7 +25,7 @@ export default function Footer() {
                     <h3 class="text-wb-red text-lg">Contact</h3>
                     George Waldbusser, Owner<br />
                     541-xxx-xxxx
-                    <Social instagram="waldbusserciderworks" facebook="waldbusserciderworks"/>
+                    <Social instagram="waldbusserciderworks" fa-facebook="waldbusserciderworks"/>
                 </div>
             </div>
         </footer>

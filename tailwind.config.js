@@ -9,6 +9,9 @@ module.exports = {
     "./node_modules/@ocdla/global-components/**/*.{html,js,jsx}",
   ],
   theme: {
+    container: {
+        padding: '6rem',
+    },
     colors: {
       "wb-brown": "#794850", // ferra
       "wb-cordovan": "#7D4F52",
