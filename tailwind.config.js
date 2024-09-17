@@ -9,6 +9,12 @@ module.exports = {
     "./node_modules/@ocdla/global-components/**/*.{html,js,jsx}",
   ],
   theme: {
+    screens: {
+      'phone': '320px',
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px', 
+    },
     colors: {
       "wb-brown": "#794850", // ferra
       "wb-cordovan": "#7D4F52",

@@ -14,7 +14,7 @@ export default function Home() {
                     apples we use.
                 </p>
             </section>
-            <section class="container mx-auto flex justify-between gap-16 mb-8 -mt-16">
+            <section class="container mx-auto flex justify-between gap-16 mb-8 -mt-16 laptop:flex-row tablet:flex-col">
                 <img
                     src="../images/mockup/Photo_Section_1.png"
                 />
