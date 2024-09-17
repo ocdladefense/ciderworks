@@ -9,11 +9,32 @@ import Growers from "./Growers";
 import HowItsMade from "./HowItsMade";
 
 export default function App() {
+    const location = window.location.href.split("/").at(-1).toLowerCase();
+    let page;
+
+    switch (location) {
+        case "about":
+            page = <About />;
+            break;
+        case "contact":
+            page = <Contact />;
+            break;
+        case "growers":
+            page = <Growers />;
+            break;
+        case "howitsmade":
+            page = <HowItsMade />;
+            break;
+        default:
+            page = <Home />;
+            break;
+    }
+
     return (
         <>
             <Header />
-            <main class="snap-y">
-                <Home />
+            <main>
+                {page}
             </main>
             <Footer />
         </>

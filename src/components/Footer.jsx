@@ -25,6 +25,9 @@ export default function Footer() {
                     541-xxx-xxxx
                     <Social instagram="waldbusserciderworks" fa-facebook="waldbusserciderworks"/>
                 </div>
+                <Sitemap>
+                    <SitemapCategory title="Temporary navigation" path="/" Home="/" About="/about" How_Its_Made="/howitsmade" Growers="/growers" Where_To_Buy="/wheretobuy" Contact_Us="/contact"/>
+                </Sitemap>
             </div>
         </footer>
     );
