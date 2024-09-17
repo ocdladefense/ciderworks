@@ -19,62 +19,42 @@ export default function Home() {
                     </p>
                 </section>
 
-                <section class="mb-8 py-16 h-screen grid place-items-center">
-                    
-                    <TwoColumnPanel side="right" image="../images/mockup/Photo_Section_1.png">
-                        <h3 class="text-wb-cordovan text-8xl font-semibold container mx-auto mb-8">OUR PHILOSOPHY</h3>
-                        <p class="text-2xl">
-                            At Waldbusser Ciderworks we believe that great cider
-                            starts with great ingredients. Our commitment to quality
-                            begins with sourcing the finest apples from local
-                            orchards. By partnering with growers who share our
-                            passion for sustainability and excellence, we ensure
-                            that every sip of our cider is a reflection of the rich,
-                            fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
-                        </p>
-                    </TwoColumnPanel>
-                   
-                    
-                </section>
+                <TwoColumnPanel heading="OUR PHILOSOPHY" side="right" image="../images/mockup/Photo_Section_1.png">
+                    <p class="text-2xl">
+                        At Waldbusser Ciderworks we believe that great cider
+                        starts with great ingredients. Our commitment to quality
+                        begins with sourcing the finest apples from local
+                        orchards. By partnering with growers who share our
+                        passion for sustainability and excellence, we ensure
+                        that every sip of our cider is a reflection of the rich,
+                        fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
+                    </p>
+                </TwoColumnPanel>
 
-                <section class="mb-8 py-16 bg-wb-gray h-screen grid place-items-center">
-                    
-                    
-                    <TwoColumnPanel side="left" image="../images/mockup/Photo_Section_2.png">
-                        <h3 class="text-wb-cordovan text-8xl font-semibold container mx-auto mb-8">SLOW CIDER</h3>
-                        <p class="text-2xl">
-                            Patience is at the core of our cider-making process.
-                            Unlike mass-produced ciders that rush through
-                            fermentation, we embrace a slow fermentation method that
-                            allows the natural flavors and aromas of the apples to
-                            develop fully. This careful approach results in ciders
-                            that are complex, well-balanced, and brimming with
-                            character.
-                        </p>
-                    </TwoColumnPanel>
-                
-                    
-                </section>
+                <TwoColumnPanel heading="SLOW CIDER" side="left" image="../images/mockup/Photo_Section_2.png">
+                    <p class="text-2xl">
+                        Patience is at the core of our cider-making process.
+                        Unlike mass-produced ciders that rush through
+                        fermentation, we embrace a slow fermentation method that
+                        allows the natural flavors and aromas of the apples to
+                        develop fully. This careful approach results in ciders
+                        that are complex, well-balanced, and brimming with
+                        character.
+                    </p>
+                </TwoColumnPanel>
 
-                <section class="mb-8 py-16 h-screen grid place-items-center">
-                    
-                
-                    <TwoColumnPanel side="right" image="../images/mockup/Photo_Section_3.png">
-                        <h3 class="text-wb-cordovan text-8xl font-semibold container mx-auto mb-8">TRANSPARENCY</h3>
-                        <p class="text-2xl">
-                            We take pride in our transparent production practices.
-                            From apple to bottle, we invite you to see every step of
-                            our process. Whether it's detailed information on our
-                            apple varieties, or insights into our fermentation
-                            techniques, we're dedicated to being open about how our
-                            ciders are made. Transparency is not just a buzzword for
-                            us; it's a commitment to our customers and a cornerstone
-                            of our brand.
-                        </p>
-                    </TwoColumnPanel>
-                 
-                    
-                </section>
+                <TwoColumnPanel heading="TRANSPARENCY" side="right" image="../images/mockup/Photo_Section_3.png">
+                    <p class="text-2xl self-justify-end">
+                        We take pride in our transparent production practices.
+                        From apple to bottle, we invite you to see every step of
+                        our process. Whether it's detailed information on our
+                        apple varieties, or insights into our fermentation
+                        techniques, we're dedicated to being open about how our
+                        ciders are made. Transparency is not just a buzzword for
+                        us; it's a commitment to our customers and a cornerstone
+                        of our brand.
+                    </p>
+                </TwoColumnPanel>
 
                 <section class="mb-16 bg-wb-gray py-8 h-screen grid place-items-center">
                     <div class="container mx-auto">
