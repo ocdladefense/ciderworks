@@ -7,6 +7,8 @@ import About from "./About";
 import Contact from "./Contact";
 import Growers from "./Growers";
 import HowItsMade from "./HowItsMade";
+import WhereToBuy from "./WhereToBuy";
+import OrderProgress from "./OrderProgress"
 
 export default function App() {
     const location = window.location.href.split("/").at(-1).toLowerCase();
@@ -24,6 +26,12 @@ export default function App() {
             break;
         case "howitsmade":
             page = <HowItsMade />;
+            break;
+        case "wheretobuy":
+            page = <WhereToBuy />;
+            break;
+        case "orderprogress":
+            page = <OrderProgress />;
             break;
         default:
             page = <Home />;

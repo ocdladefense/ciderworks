@@ -32,6 +32,7 @@ export default function Footer() {
                         How_Its_Made="/howitsmade" 
                         Growers="/growers" 
                         Where_To_Buy="/wheretobuy" 
+                        Order_Progress="/orderprogress"
                         Contact_Us="/contact"
                     />
                 </Sitemap>

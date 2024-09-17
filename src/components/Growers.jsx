@@ -13,8 +13,7 @@ export default function Growers() {
             </section>
 
 
-                <TwoColumnPanel side="right" image="../images/sample.png">
-                    <h3 class="text-wb-cordovan text-2xl font-semibold">GROWER A</h3>
+                <TwoColumnPanel heading="GROWER A" side="right" image="../images/sample.png">
                     <p class="container mx-auto text-base">
                         Eleifend sociosqu sapien magna rhoncus, duis a vel dictum? Posuere volutpat mollis nullam id commodo blandit. Aenean quam interdum odio ut metus rhoncus torquent. Rhoncus curabitur nostra consectetur pharetra auctor pretium augue dui amet. Elementum vivamus sem sit etiam sit mus congue. Ullamcorper ridiculus class, sed phasellus commodo tempus hac. Volutpat vivamus placerat ridiculus vulputate mauris parturient fringilla augue! Mattis torquent cursus praesent a bibendum nam. Consequat ad dignissim elit cursus integer.
                     </p>
@@ -23,15 +22,13 @@ export default function Growers() {
                     </p>
                 </TwoColumnPanel>
                 <section class="bg-wb-gray w-full mb-16 py-8">
-                    <TwoColumnPanel side="right" image="../images/sample.png">
-                        <h3 class="text-wb-cordovan text-2xl font-semibold">GROWER B</h3>
+                    <TwoColumnPanel heading="GROWER B" side="right" image="../images/sample.png">
                         <p class="container mx-auto text-base">
                             Nec sapien egestas mattis efficitur volutpat purus odio. Nulla lacus cras lacinia eget massa. Nisl potenti consequat laoreet vehicula fringilla lectus himenaeos erat. Per urna penatibus porttitor nisi imperdiet molestie euismod sociosqu praesent. Ipsum dignissim a donec nisl dis dignissim pulvinar at. Ullamcorper ultricies vestibulum fames; tristique mi molestie posuere netus. Tincidunt integer pulvinar ipsum erat luctus ut primis fusce.
                         </p>
                     </TwoColumnPanel>
                 </section>
-                <TwoColumnPanel side="right" image="../images/sample.png">
-                    <h3 class="text-wb-cordovan text-2xl font-semibold">GROWER C</h3>
+                <TwoColumnPanel heading="GROWER C" side="right" image="../images/sample.png">
                     <p class="container mx-auto text-base">
                         Conubia et dapibus auctor sagittis dignissim ipsum interdum. Et ut aliquet tortor rhoncus, augue eu sociosqu. Interdum aptent mattis posuere magnis massa varius. Sodales nunc libero nunc varius porta dolor. Vehicula tincidunt ex himenaeos scelerisque nascetur; libero vehicula ultrices. Pharetra mus dolor duis consequat a habitant vestibulum.
                     </p>
