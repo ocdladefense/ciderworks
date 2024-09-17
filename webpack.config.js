@@ -44,10 +44,6 @@ module.exports = env => {
         module: {
             rules: [
                 {
-                    test: /\.html$/i,
-                    loader: "html-loader"
-                },
-                {
                     test: /\.(js|jsx)$/,
                     // exclude: /(node_modules)/,
                     use: {
@@ -86,23 +82,11 @@ module.exports = env => {
                 },
                 {
                     test: /\.(png|jpg|gif)$/i,
-                    exclude: [
-                        /node_modules\/(?!@ocdla\/global-components)/,
-                        /dev_modules\/(?!@ocdla\/global-components)/
-                    ],
                     type: "asset/resource"
                 },
                 {
                     test: /\.xml$/i,
-                    exclude: [
-                        /node_modules\/(?!@local)/,
-                        /dev_modules\/(?!@ocdla)/
-                    ],
                     type: "asset/source"
-                },
-                {
-                    test: /\.html$/i,
-                    loader: "html-loader"
                 }
             ]
         },

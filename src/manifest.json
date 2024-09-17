@@ -5,23 +5,43 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "images/pwa-icons-180.png",
+            "src": "images/pwa-icons/pwa-icon-180.png",
             "sizes": "180x180",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
-            "src": "images/pwa-icons-192.png",
+            "src": "images/pwa-icons/pwa-icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
-            "src": "images/pwa-startup-512.png",
+            "src": "images/pwa-icons/pwa-icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/pwa-icons/pwa-icon-512.png",
             "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/pwa-icons/pwa-startup-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/pwa-icons/apple-launch-750x1334.png",
+            "sizes": "750x1334",
             "type": "image/png"
         }
     ],
-    "background_color": "#c4a12e",
-    "theme_color": "#c4a12e",
+    "background_color": "#F5F6F8",
+    "theme_color": "#7D4F52",
     "description": "Website for Waldbusser Ciderworks",
     "screenshots": [
         {
@@ -29,6 +49,12 @@
             "type": "image/png",
             "sizes": "540x720",
             "form_factor": "narrow"
+        },
+        {
+            "src": "/images/screenshot1.png",
+            "type": "image/png",
+            "sizes": "540x720",
+            "form_factor": "wide"
         }
     ]
 }

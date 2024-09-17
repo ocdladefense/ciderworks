@@ -12,7 +12,7 @@ export default function App() {
     return (
         <>
             <Header />
-            <main>
+            <main class="snap-y">
                 <Home />
             </main>
             <Footer />

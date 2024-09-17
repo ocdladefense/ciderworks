@@ -26,7 +26,6 @@
     "globals": "^15.6.0",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
-    "@local/scripts": "file:./dev_modules/@local/local",
     "@local/local": "file:./dev_modules/@local/local"
   },
   "devDependencies": {
@@ -39,7 +38,6 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.11.0",
     "dotenv-webpack": "^8.1.0",
-    "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.5.4",
     "jsdoc": "^4.0.2",
     "postcss-loader": "^8.1.1",
