@@ -18,7 +18,7 @@ export default function Footer() {
     return (
         <footer class="text-wb-white bg-wb-black p-4 pb-16 lg:p-8 lg:pb-32 w-full">
             <div class="container mx-auto grid grid-cols-6 gap-4 bg-wb-black pt-4 lg:pt-8">
-                <Logo src="../images/logos/Waldbusser Ciderworks - Logo Color-05.png" size="pl-4 lg:pl-8 size-full"/>
+                <Logo src="../images/logos/Waldbusser Ciderworks - Logo Color-05.svg" size="pl-4 lg:pl-8 size-full"/>
                 <div class="col-span-4 pl-8">
                     <h3 class="text-wb-red text-lg">Contact</h3>
                     George Waldbusser, Owner<br />
