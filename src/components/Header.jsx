@@ -5,9 +5,10 @@ export default function Header() {
     return (
         <header class="w-full m-0 p-0 bg-wb-black">   
             <Navigation />
+            <img src="..\images\mockup\Banner.png" class="size-fit"/> 
             
             {/* 
-            <img src="..\images\mockup\Banner.png" /> 
+            
             <img class="object-scale-down" src="..\images\logos\Waldbusser Ciderworks - Logo White.png" />     */}
         </header>
     );

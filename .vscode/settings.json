@@ -17,5 +17,8 @@
     "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
     "[xml]": {
         "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     }
 }

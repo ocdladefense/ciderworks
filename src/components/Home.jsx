@@ -6,9 +6,9 @@ import ContentPanel from "./ContentPanel";
 export default function Home() {
     return (
         <>
-                <section class="pb-32 bg-wb-gray text-wb-black h-screen">
+                {/* <section class="pb-32 bg-wb-gray text-wb-black h-screen">
                     <img src="..\images\mockup\Banner.png" class="size-fit"/> 
-                </section>
+                </section> */}
 
                 {/* <ContentPanel>
                     <p class="subpixel-antialiased container mx-auto text-2xl px-8 pt-32">
