@@ -9,10 +9,21 @@ export default function Home() {
                 <section class="pb-32 bg-wb-gray text-wb-black h-screen">
                     <img src="..\images\mockup\Banner.png" class="size-fit"/> 
                 </section>
+
+                {/* <ContentPanel>
+                    <p class="subpixel-antialiased container mx-auto text-2xl px-8 pt-32">
+                        Welcome to <strong>Waldbusser Ciderworks</strong>, where the art of
+                        traditional cider making meets modern, transparent
+                        practices. Nestled in the heart of Oregon, we specialize
+                        in crafting exceptional ciders through a meticulous slow
+                        fermentation process that captures the essence of the
+                        apples we use.
+                    </p>
+                </ContentPanel> */}
                 
 
                 <TwoColumnPanel heading="OUR PHILOSOPHY" side="right" image="../images/mockup/Photo_Section_1.png">
-                    <p class="text-lg laptop:text-2xl">
+                    <p class="subpixel-antialiased text-lg laptop:text-2xl">
                         At Waldbusser Ciderworks we believe that great cider
                         starts with great ingredients. Our commitment to quality
                         begins with sourcing the finest apples from local
@@ -24,7 +35,7 @@ export default function Home() {
                 </TwoColumnPanel>
 
                 <TwoColumnPanel heading="SLOW CIDER" side="left" image="../images/mockup/Photo_Section_2.png">
-                    <p class="text-lg laptop:text-2xl">
+                    <p class="subpixel-antialiased text-lg laptop:text-2xl">
                         Patience is at the core of our cider-making process.
                         Unlike mass-produced ciders that rush through
                         fermentation, we embrace a slow fermentation method that
@@ -36,7 +47,7 @@ export default function Home() {
                 </TwoColumnPanel>
 
                 <TwoColumnPanel heading="TRANSPARENCY" side="right" image="../images/mockup/Photo_Section_3.png">
-                    <p class="text-lg laptop:text-2xl self-justify-end">
+                    <p class="subpixel-antialiased text-lg laptop:text-2xl self-justify-end">
                         We take pride in our transparent production practices.
                         From apple to bottle, we invite you to see every step of
                         our process. Whether it's detailed information on our
