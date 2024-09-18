@@ -1,11 +1,13 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
 import TwoColumnPanel from "./TwoColumnPanel";
+import ProgressBar from "./ProgressBar";
+import ProgressStep from "./ProgressStep";
 
 export default function OrderProgress() {
     return (
         <>
-            <h3 class="subpixel-antialiased text-4xl tablet:text-6xl laptop:text-8xl font-semibold text-center laptop:text-left text-wb-cordovan mb-8 container mx-auto">Order #1234</h3>
+            <h3 class="subpixel-antialiased text-4xl tablet:text-6xl laptop:text-8xl font-semibold text-center laptop:text-left text-wb-black mb-8 container mx-auto">Order #1234</h3>
             <section class="container-none laptop:container h-full mx-auto flex justify-between gap-8 mb-32 laptop:mb-16 grid grid-cols-1 tablet:grid-cols-3 tablet:grid-flow-row my-8 bg-wb-gray rounded-lg p-8">
                 <div class="grid-span-1 tablet:border-r-2 tablet:border-wb-cordovan">
                     <div class="grid grid-cols-2 mb-4">
@@ -25,9 +27,14 @@ export default function OrderProgress() {
                     </div>
                 </div>
                 <div class="grid-span-2">
-                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
-                    </div>
+                    <ProgressStep name="Ordering" status="Complete" />
+                    <ProgressStep name="Pressing" status="Complete" />
+                    <ProgressStep name="Fermenting" status="Pending">
+                        <ProgressBar percentage="70" />
+                    </ProgressStep>
+                    <ProgressStep name="Bottling" status="Incomplete" />
+                    <ProgressStep name="Racking" status="Incomplete" />
+                    <ProgressStep name="Maturing" status="Incomplete" />
                 </div>
             </section>
         </>
