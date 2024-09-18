@@ -13,6 +13,7 @@ import OrderProgress from "./OrderProgress"
 export default function App() {
     const location = window.location.href.split("/").at(-1).toLowerCase();
     let page;
+    let header = <></>;
 
     switch (location) {
         case "about":
@@ -35,11 +36,13 @@ export default function App() {
             break;
         default:
             page = <Home />;
+            header = <img src="..\images\mockup\Banner.png" class="size-fit" />;
             break;
     }
 
     return (
         <>
+            {header}
             <Header />
             <main>
                 {page}

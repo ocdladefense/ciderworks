@@ -3,7 +3,6 @@ import { vNode, View } from "@ocdla/view";
 import "../css/input.css";
 //import HttpClient from "@ocdla/lib-http/HttpClient.js";
 import App from "../components/App.jsx";
-import Home from "../components/Home.jsx"
 
 if (USE_MOCK) {
 }
