@@ -10,6 +10,7 @@ export default function WhereToBuy() {
         <>
 
             <h3 class="subpixel-antialiased text-4xl tablet:text-6xl laptop:text-8xl font-semibold text-center laptop:text-left text-wb-cordovan mb-8 container mx-auto">Where to Buy</h3>
+            <input placeholder="zip code" />
             <section class="container-none px-8 laptop:container laptop:px-0 h-full mx-auto flex justify-between gap-8 mb-32 laptop:mb-16 grid grid-cols-1 tablet:grid-cols-2 tablet:grid-flow-row my-8">
                 <div class="grid-span-1">
                     <ul class="subpixel-antialiased text-2xl laptop:text-3xl">

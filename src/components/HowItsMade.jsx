@@ -7,11 +7,11 @@ export default function HowItsMade() {
     return (
         <>
             <ContentPanel heading="PICKED LOCAL">
-                <p class="subpixel-antialiased container mx-auto text-2xl px-8 pt-32">
+                <p class="subpixel-antialiased text-lg laptop:text-2xl">
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Netus senectus leo leo tristique integer curabitur elementum ex. Erat sed inceptos sapien facilisi auctor eleifend senectus inceptos. Himenaeos potenti condimentum inceptos vulputate ultrices egestas posuere. Libero porta platea scelerisque taciti nostra duis quisque nulla. Posuere a ex fringilla eros nascetur pretium mi. Posuere potenti placerat auctor cras arcu ut facilisis sem at. Litora penatibus laoreet conubia fusce sapien habitasse.
                 </p>
             </ContentPanel>
-                
+
             <TwoColumnPanel heading="SIMPLE INGREDIENTS" side="left" image="../images/mockup/Photo_Section_1.png">
                 <p class="subpixel-antialiased text-lg laptop:text-2xl">
                     Ad interdum congue arcu id taciti ipsum vulputate. Fermentum facilisis ipsum porttitor maecenas platea etiam. Lectus proin habitant commodo taciti primis hac. Quis metus sed commodo tellus cursus gravida dolor ornare. Litora fringilla pulvinar non ullamcorper consectetur. Dapibus quis tristique vehicula vel litora litora fringilla ultricies commodo. Dictum amet suscipit sit gravida id vel purus consequat.

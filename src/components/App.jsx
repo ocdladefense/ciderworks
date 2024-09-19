@@ -36,7 +36,7 @@ export default function App() {
             break;
         default:
             page = <Home />;
-            header = <img src="..\images\mockup\Banner.png" class="size-fit" />;
+            header = <img src="..\images\mockup\Banner.png" class="size-full" />;
             break;
     }
 
