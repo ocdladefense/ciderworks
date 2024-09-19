@@ -42,8 +42,8 @@ export default function App() {
 
     return (
         <>
-            {header}
             <Header />
+            {header}
             <main class="grow">
                 {page}
             </main>
