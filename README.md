@@ -21,6 +21,14 @@ _Note: A secret is necessary to utilitze GitHub's Deploy to GitHub Pages functio
 * https://new.express.adobe.com/tools/generate-qr-code
 * https://www.qr-code-generator.com/solutions/vcard-qr-code/
 
+## Google Maps
+* https://support.google.com/mymaps/answer/3109452?hl=en&co=GENIE.Platform%3DDesktop
+* https://support.google.com/mymaps/answer/3109452?hl=en&co=GENIE.Platform%3DDesktop
+
+## PWA Icons
+* https://developer.apple.com/design/human-interface-guidelines/app-icons#App-icon-sizes
+
+
 
 
 ## @TODO
