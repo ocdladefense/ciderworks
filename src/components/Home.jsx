@@ -23,7 +23,7 @@ export default function Home() {
 
 
             <TwoColumnPanel heading="OUR PHILOSOPHY" order="ltr">
-                <img src="../images/mockup/Photo_Section_1.png" class="rounded pb-8 object-cover" />
+                <img src="../images/mockup/Photo_Section_1.png" class="rounded pb-8 object-cover mx-auto" />
                 <p class="subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full">
                     At Waldbusser Ciderworks we believe that great cider
                     starts with great ingredients. Our commitment to quality
@@ -37,7 +37,7 @@ export default function Home() {
             </TwoColumnPanel>
 
             <TwoColumnPanel heading="SLOW CIDER" order="rtl">
-                <img src="../images/mockup/Photo_Section_2.png" class="rounded pb-8 object-cover" />
+                <img src="../images/mockup/Photo_Section_2.png" class="rounded pb-8 object-cover mx-auto" />
                 <p class="subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full">
                     Patience is at the core of our cider-making process.
                     Unlike mass-produced ciders that rush through
@@ -50,7 +50,7 @@ export default function Home() {
             </TwoColumnPanel>
 
             <TwoColumnPanel heading="TRANSPARENCY" order="lrt">
-                <img src="../images/mockup/Photo_Section_3.png" class="rounded pb-8 object-cover" />
+                <img src="../images/mockup/Photo_Section_3.png" class="rounded pb-8 object-cover mx-auto" />
                 <p class="subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full">
                     We take pride in our transparent production practices.
                     From apple to bottle, we invite you to see every step of
