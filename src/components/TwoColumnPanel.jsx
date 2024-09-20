@@ -1,7 +1,7 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-export default function TwoColumnPanel({ heading, side, children, image, className }) {
-    const backgroundColor = side == "left" ? "bg-wb-gray" : ""
+export default function TwoColumnPanel({ heading, order, children, image, className }) {
+    const backgroundColor = order == "left" ? "bg-wb-gray" : ""
     return (
         <section class={`py-8 tablet:py-16 h-screen min-w-[400px] min-h-[800px] laptop:min-w-[800px] min-h-[1220px] grid grid-rows-5 gap-0 tablet:place-items-start mb-32 tablet:my-16 laptop:my-8 ${backgroundColor}`}>
             <div class="container mx-auto -mb-16 tablet:mb-8 desktop:-mb-64 row-span-1">
