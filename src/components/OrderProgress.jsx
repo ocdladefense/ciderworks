@@ -48,13 +48,13 @@ export default function OrderProgress() {
                         <strong>Order Date:</strong> 1/1/2020
                     </div>
                     <div class="grid grid-cols-2 mb-4">
-                        <strong>Order Status:</strong> Fermenting
+                        <strong>Order Status:</strong> Pressing
                     </div>
                     <div class="grid grid-cols-2 mb-4">
-                        <strong>Order Quantity:</strong> 100 pcs
+                        <strong>Order Quantity:</strong> 80 pcs
                     </div>
                     <div class="grid grid-cols-2 mb-4">
-                        <strong>Order Total:</strong> $1482.00
+                        <strong>Order Total:</strong> $1185.60
                     </div>
                 </div>
                 <div class="grid-span-2">
