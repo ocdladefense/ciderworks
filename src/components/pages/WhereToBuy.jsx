@@ -9,7 +9,7 @@ export default function WhereToBuy() {
     return (
         <>
 
-            <h3 class="subpixel-antialiased text-4xl laptop:text-6xl laptop:text-8xl font-semibold text-center laptop:text-left text-wb-cordovan mb-8 container mx-auto">Where to Buy</h3>
+            <h3 class="subpixel-antialiased text-4xl laptop:text-6xl laptop:text-8xl font-semibold text-center laptop:text-left text-wb-cordovan mb-8 container mx-auto content-heading">where to buy</h3>
 
             <section class="container-none px-8 laptop:container laptop:px-0 h-full mx-auto flex justify-between gap-8 mb-32 laptop:mb-16 grid grid-cols-1 laptop:grid-cols-2 laptop:grid-flow-row my-8">
 

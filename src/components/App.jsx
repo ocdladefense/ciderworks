@@ -51,7 +51,7 @@ export default function App() {
         <>
             <Header />
             {header}
-            <main class="grow">
+            <main class="grow overflow-x-hidden">
                 {page}
             </main>
             <Footer />

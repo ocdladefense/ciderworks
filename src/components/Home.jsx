@@ -30,7 +30,7 @@ export default function Home() {
 
             </TwoColumnPanel>
 
-            <TwoColumnPanel heading="Slow Cider" order="rtl">
+            <TwoColumnPanel heading="slow cider" order="rtl">
                 <img src="../images/mockup/Photo_Section_2.png" class="rounded pb-8 object-cover mx-auto" />
                 <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Patience is at the core of our cider-making process.
@@ -43,9 +43,9 @@ export default function Home() {
                 </p>
             </TwoColumnPanel>
 
-            <TwoColumnPanel heading="TRANSPARENCY" order="lrt">
+            <TwoColumnPanel heading="transparency" order="lrt">
                 <img src="../images/mockup/Photo_Section_3.png" class="rounded pb-8 object-cover mx-auto" />
-                <p class="subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full">
+                <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     We take pride in our transparent production practices.
                     From apple to bottle, we invite you to see every step of
                     our process. Whether it's detailed information on our
@@ -57,8 +57,8 @@ export default function Home() {
                 </p>
             </TwoColumnPanel>
 
-            <ContentPanel heading="OUR CIDERS" color="bg-wb-gray">
-                <p class="subpixel-antialiased text-lg tablet:text-2xl w-2/3 text-wb-black mb-8">
+            <ContentPanel heading="our ciders" color="bg-wb-gray">
+                <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Each cider we produce tells a story. From crisp,
                     refreshing styles to rich, robust blends, our range
                     caters to all palates. Every bottle is a testament to
@@ -68,15 +68,15 @@ export default function Home() {
                 <img class="mx-auto size-auto p-0" src="../images/mockup/Waldbusser Ciderworks - Bottle Mockup 1.png" />
             </ContentPanel>
 
-            <ContentPanel heading="JOIN OUR COMMUNITY">
-                <p class="subpixel-antialiased text-lg tablet:text-2xl text-wb-black mb-8">
+            <ContentPanel heading="join our community">
+                <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Stay connected with us through our social media
                     channels. Be the first to know about new releases,
                     special events, and exclusive offers. Join our community
                     of cider enthusiasts and share in the journey of
                     crafting exceptional ciders.
                 </p>
-                <p class="subpixel-antialiased text-lg tablet:text-2xl text-wb-black mb-8">
+                <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Thank you for choosing
                     Waldbusser Ciderworks. Cheers to slow cider!
                 </p>
