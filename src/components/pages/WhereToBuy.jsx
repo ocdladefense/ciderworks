@@ -1,9 +1,9 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-import StoreLocation from "./StoreLocation";
+import StoreLocation from "../StoreLocation";
 import GoogleMaps from "@ocdla/global-components/src/GoogleMaps";
 
-import ZipcodeSearch from "./ZipcodeSearch";
+import ZipcodeSearch from "../ZipcodeSearch";
 
 export default function WhereToBuy() {
     return (

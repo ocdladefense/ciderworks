@@ -13,7 +13,7 @@ module.exports = {
       'phone': '320px',
       'tablet': '640px',
       'laptop': '1024px',
-      'desktop': '1280px', 
+      'desktop': '1280px'
     },
     colors: {
       "wb-brown": "#794850", // ferra
@@ -23,12 +23,15 @@ module.exports = {
       "wb-blue": "#394657", // oxford blue
       "wb-orange": "#F68544", // jaffa
       "wb-black": "rgb(47,42,42)",
+      "wb-paragraph-black": "rgba(35, 35, 35, 0.8)",
       "wb-gray": "#F5F6F8",
       "wb-white": "rgb(255,255,255)",
     },
     extend: {
       fontFamily: {
-        sans: ["Open Sans", "Tienne", ...defaultTheme.fontFamily.sans],
+        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+        serif: ["Tienne", ...defaultTheme.fontFamily.serif],
+        "wb-paragraph": ["Tienne"]
       },
     },
   },

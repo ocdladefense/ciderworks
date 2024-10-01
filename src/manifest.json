@@ -26,12 +26,6 @@
             "src": "images/pwa-icons/pwa-icon-512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "images/pwa-icons/pwa-startup-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
             "purpose": "maskable"
         },
         {

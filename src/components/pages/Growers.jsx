@@ -1,7 +1,7 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-import TwoColumnPanel from "./TwoColumnPanel";
-import ContentPanel from "./ContentPanel";
+import TwoColumnPanel from "../TwoColumnPanel";
+import ContentPanel from "../ContentPanel";
 
 export default function Growers() {
     return (

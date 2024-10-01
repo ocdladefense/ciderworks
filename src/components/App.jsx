@@ -3,12 +3,13 @@ import { vNode, View } from "@ocdla/view";
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Growers from "./Growers";
-import HowItsMade from "./HowItsMade";
-import WhereToBuy from "./WhereToBuy";
-import OrderProgress from "./OrderProgress"
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Ciders from "./pages/Ciders";
+import Growers from "./pages/Growers";
+import HowItsMade from "./pages/HowItsMade";
+import WhereToBuy from "./pages/WhereToBuy";
+import OrderProgress from "./pages/OrderProgress"
 
 export default function App() {
     const location = window.location.href.split("/").at(-1).toLowerCase();
@@ -25,13 +26,19 @@ export default function App() {
         case "growers":
             page = <Growers />;
             break;
-        case "howitsmade":
+        case "ciders":
+            page = <Ciders />;
+            break;
+        case "how-its-made":
             page = <HowItsMade />;
             break;
-        case "wheretobuy":
+        case "where-to-buy":
             page = <WhereToBuy />;
             break;
-        case "orderprogress":
+        case "order-progress":
+            page = <OrderProgress />;
+            break;
+        case "whats-brewing":
             page = <OrderProgress />;
             break;
         default:

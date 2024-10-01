@@ -3,27 +3,62 @@ import { vNode, View } from "@ocdla/view";
 import Logo from "@ocdla/global-components/src/Logo";
 
 export default function Navigation() {
-    return (
-        <nav class="grid grid-cols-7 gap-4">
-            <div class="col-span-1 col-start-2">
-                <a style='color: #FFF;' href="/"><button class="text-white font-bold text-lg hover:text-wb-cordovan pb-0 pt-1">home</button></a>
-            </div>
-            <div class="col-span-1">
-                <a style='color: #FFF;' href="/wheretobuy"><button class="text-white font-bold text-lg hover:text-wb-cordovan pb-0 pt-1">where to buy</button></a>
-            </div>
-            <div class="col-span-1">
-                <a style='color: #FFF;' href="/growers"><button class="text-white font-bold text-lg hover:text-wb-cordovan pb-0 pt-1">growers</button></a>
-            </div>
-            <div class="col-span-1">
-                <a style='color: #FFF;' href="/howitsmade"><button class="text-white font-bold text-lg hover:text-wb-cordovan pb-0 pt-1">how it's made</button></a>
-            </div>
-            <div class="col-span-1">
-                <a style='color: #FFF;' href="/about"><button class="text-white font-bold text-lg hover:text-wb-cordovan pb-0 pt-1">about</button></a>
-            </div>
-            <div class="col-span-1">
-                <a style='color: #FFF;' href="/contact"><button class="text-white font-bold text-lg hover:text-wb-cordovan pb-0 pt-1">contact us</button></a>
-            </div>
+    let items = [
+        {
+            url: "/",
+            label: "home"
+        },
+        {
+            url: "/ciders",
+            label: "ciders"
+        },
+        {
+            url: "/growers",
+            label: "growers"
+        },
+        {
+            url: "/where-to-buy",
+            label: "where to buy"
+        },
+        {
+            url: "/how-its-made",
+            label: "how it's made"
+        },
+        {
+            url: "/about",
+            label: "about"
+        },
+        {
+            url: "/contact",
+            label: "contact us"
+        }
+    ];
 
+
+    items = items.map(item => {
+        return (
+            <div class="col-span-1">
+                <a style='color: #FFF;' href={item.url}>
+                    <button class="text-white text-base subpixel-antialiased hover:text-wb-cordovan pb-0 pt-1">{item.label}</button>
+                </a>
+            </div>
+        );
+    });
+
+    return (
+        <nav class="">
+            <ul class="main-nav">
+
+                <li class="col-span-1 col-start-2">
+                    <a class="flex px-4" href="/">
+                        <img style="vertical-align:middle;" width="30" height="30" src="../images/logos/Waldbusser Ciderworks - Logo Color-05.svg" />
+                    </a>
+                </li>
+
+
+                {items}
+
+            </ul>
         </nav>
-    )
+    );
 }

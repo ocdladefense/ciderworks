@@ -22,23 +22,17 @@ export default function Home() {
                 </ContentPanel> */}
 
 
-            <TwoColumnPanel heading="OUR PHILOSOPHY" order="ltr">
+            <TwoColumnPanel heading="our philosophy" order="ltr">
                 <img src="../images/mockup/Photo_Section_1.png" class="rounded pb-8 object-cover mx-auto" />
-                <p class="subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full">
-                    At Waldbusser Ciderworks we believe that great cider
-                    starts with great ingredients. Our commitment to quality
-                    begins with sourcing the finest apples from local
-                    orchards. By partnering with growers who share our
-                    passion for sustainability and excellence, we ensure
-                    that every sip of our cider is a reflection of the rich,
-                    fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
+                <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
+                    Great cider starts with great ingredients. Our commitment to quality begins with sourcing the finest apples from local orchards. By partnering with growers who share our passion for sustainability and excellence, we ensure that every sip of our cider is a reflection of the rich, fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
                 </p>
 
             </TwoColumnPanel>
 
-            <TwoColumnPanel heading="SLOW CIDER" order="rtl">
+            <TwoColumnPanel heading="Slow Cider" order="rtl">
                 <img src="../images/mockup/Photo_Section_2.png" class="rounded pb-8 object-cover mx-auto" />
-                <p class="subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full">
+                <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto w-4/5 laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Patience is at the core of our cider-making process.
                     Unlike mass-produced ciders that rush through
                     fermentation, we embrace a slow fermentation method that

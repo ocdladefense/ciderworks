@@ -5,7 +5,7 @@ export default function TwoColumnPanel({ heading, order, children }) {
     return (
         <section class={`py-8 tablet:py-16 h-screen max-h-[900px] min-w-[400px] min-h-[800px] laptop:min-w-[800px] min-h-[1220px] grid grid-rows-5 gap-0 tablet:place-items-start mb-32 tablet:my-16 laptop:my-8 ${backgroundColor}`}>
             <div class="container mx-auto -mb-16 tablet:mb-8 desktop:-mb-64 row-span-1">
-                <h3 class="subpixel-antialiased text-wb-cordovan text-6xl tablet:text-7xl laptop:text-8xl font-semibold text-center laptop:text-left">{heading}</h3>
+                <h3 class="subpixel-antialiased text-wb-cordovan text-6xl tablet:text-7xl laptop:text-6xl font-semibold text-center laptop:text-left">{heading}</h3>
             </div>
 
             <div class="container-none laptop:container  mx-auto mb-32 laptop:mb-16  px-8 laptop:px-0  h-full  grid laptop:grid-cols-5 gap-0 laptop:gap-8 tablet:grid-flow-row  row-span-4">

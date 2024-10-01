@@ -20,13 +20,11 @@
     "@ocdla/lib-http": "file:./dev_modules/@ocdla/lib-http",
     "@ocdla/view": "file:./dev_modules/@ocdla/view",
     "@ocdla/global-components": "file:./dev_modules/@ocdla/global-components",
-    "@ocdladefense/ors": "file:./dev_modules/@ocdla/ors",
     "autoprefixer": "^10.4.19",
     "dotenv": "^16.4.5",
     "globals": "^15.6.0",
     "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.6",
-    "@local/local": "file:./dev_modules/@local/local"
+    "tailwindcss": "^3.4.6"
   },
   "devDependencies": {
     "package-json-merge": "git+https://github.com/ocdladefense/package-json-merge.git",
