@@ -18,13 +18,17 @@ nav .text-base {
 }
 
 
-.two-column-panel-striped {
+.panel-striped {
     background-color: rgb(225 215 220);
-    margin: 0px -25px 45px -25px;
-    padding: 15px 25px;
+    /* margin: 0px -25px 45px -25px;
+    padding: 15px 25px; */
 }
 
 
 section div p {
     margin-bottom: 1.5rem;
+}
+
+.content-heading {
+    text-transform: capitalize;
 }
