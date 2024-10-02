@@ -6,8 +6,8 @@
 
 nav .col-span-1 {
     display: inline-block;
-        padding: 10px 15px;
-        vertical-align:middle;
+    padding: 10px 15px;
+    vertical-align:middle;
 }
 
 
@@ -15,4 +15,16 @@ nav .text-base {
     font-size: 0.9rem;
     line-height: 1.5rem;
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+.two-column-panel-striped {
+    background-color: rgb(225 215 220);
+    margin: 0px -25px 45px -25px;
+    padding: 15px 25px;
+}
+
+
+section div p {
+    margin-bottom: 1.5rem;
 }

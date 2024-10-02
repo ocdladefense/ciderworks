@@ -1,14 +1,15 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-export default function TwoColumnPanel({ heading, order, children }) {
-    const backgroundColor = order == "rtl" ? "bg-wb-gray" : ""
+export default function TwoColumnPanel({ heading, children, order = "ltr", striped = false }) {
+    const backgroundColor = order == "rtl" ? "bg-wb-gray" : "";
+
     return (
-        <section class={`py-8 tablet:py-16 h-screen max-h-[900px] min-w-[400px] min-h-[800px] laptop:min-w-[800px] min-h-[1220px] grid grid-rows-5 gap-0 tablet:place-items-start mb-32 tablet:my-16 laptop:my-8 px-8 ${backgroundColor}`}>
-            <div class="container mx-auto -mb-16 tablet:mb-8 desktop:-mb-64 row-span-1">
-                <h3 class="subpixel-antialiased text-wb-cordovan text-5xl tablet:text-7xl laptop:text-6xl font-semibold text-center laptop:text-left content-heading">{heading}</h3>
+        <section class={`laptop:min-w-[800px] tablet:grid tablet:grid-rows-5 gap-0 tablet:place-items-start mb-16 tablet:my-22 ${striped && "two-column-panel-striped"}`}>
+            <div class="container row-span-1">
+                <h3 class="subpixel-antialiased mb-8 text-wb-cordovan text-4xl tablet:text-7xl laptop:text-6xl font-semibold">{heading}</h3>
             </div>
 
-            <div class="container-none laptop:container  mx-auto mb-32 laptop:mb-16  px-8 laptop:px-0  h-full  grid laptop:grid-cols-5 gap-0 laptop:gap-8 tablet:grid-flow-row  row-span-4">
+            <div class="container-none tablet:grid laptop:container mx-auto h-full laptop:grid-cols-5 gap-0 laptop:gap-8 tablet:grid-flow-row row-span-4">
                 {order == "rtl" ? (
                     <>
                         <div class="subpixel-antialiased col-span-2 justify-self-start">
@@ -30,6 +31,5 @@ export default function TwoColumnPanel({ heading, order, children }) {
                 )}
             </div>
         </section>
-
     )
 }

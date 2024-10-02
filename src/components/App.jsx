@@ -2,7 +2,7 @@
 import { vNode, View } from "@ocdla/view";
 import Header from "./Header";
 import Footer from "./Footer";
-import Home from "./Home";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Ciders from "./pages/Ciders";
@@ -51,7 +51,7 @@ export default function App() {
         <>
             <Header />
             {header}
-            <main class="grow overflow-x-hidden">
+            <main class="grow overflow-x-hidden px-8 pt-12 tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                 {page}
             </main>
             <Footer />
