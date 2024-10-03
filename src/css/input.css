@@ -30,7 +30,7 @@ section div p {
 }
 
 .content-heading {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .callout {
