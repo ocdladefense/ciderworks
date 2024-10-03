@@ -15,26 +15,26 @@ module.exports = {
       'laptop': '1024px',
       'desktop': '1280px'
     },
-    colors: {
-      "wb-brown": "#794850", // ferra
-      "wb-cordovan": "#7D4F52",
-      "wb-red": "#D0375C", // brick red
-      "wb-lime": "#B5E179", // yellow green
-      "wb-blue": "#394657", // oxford blue
-      "wb-orange": "#F68544", // jaffa
-      "wb-black": "rgb(47,42,42)",
-      "wb-paragraph-black": "rgba(35, 35, 35, 0.8)",
-      "wb-gray": "#F5F6F8",
-      "wb-white": "rgb(255,255,255)",
-      "wb-stone": "rgb(168 162 158)"
-    },
     extend: {
-      fontFamily: {
-        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
-        serif: ["Tienne", ...defaultTheme.fontFamily.serif],
-        "wb-paragraph": ["Tienne"]
-      },
-    },
+        fontFamily: {
+            sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+            serif: ["Tienne", ...defaultTheme.fontFamily.serif],
+            "wb-paragraph": ["Tienne"]
+        },
+        colors: {
+            "wb-brown": "#794850", // ferra
+            "wb-cordovan": "#7D4F52",
+            "wb-red": "#D0375C", // brick red
+            "wb-lime": "#B5E179", // yellow green
+            "wb-blue": "#394657", // oxford blue
+            "wb-orange": "#F68544", // jaffa
+            "wb-black": "rgb(47,42,42)",
+            "wb-paragraph-black": "rgba(35, 35, 35, 0.8)",
+            "wb-gray": "#F5F6F8",
+            "wb-white": "rgb(255,255,255)",
+            "wb-stone": "rgb(168 162 158)"
+        }
+    }
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms")]
 };
