@@ -28,7 +28,7 @@ module.exports = {
             "wb-lime": "#B5E179", // yellow green
             "wb-blue": "#394657", // oxford blue
             "wb-orange": "#F68544", // jaffa
-            "wb-black": "rgb(47,42,42)",
+            "wb-black": "#2F2A2A",//"rgb(47,42,42)",
             "wb-paragraph-black": "rgba(35, 35, 35, 0.8)",
             "wb-gray": "#F5F6F8",
             "wb-white": "rgb(255,255,255)",

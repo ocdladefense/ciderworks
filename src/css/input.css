@@ -34,15 +34,13 @@ section div p {
 }
 
 .callout {
-    padding: 23px;
+
     /* margin-top: -112px; */
-    border-radius: 4px;
+    
     font-size: 1.0rem;
     font-weight: 200;
-    width: 90%;
     margin: 0 auto;
     margin-top: -25px;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .callout p {
