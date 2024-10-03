@@ -10,16 +10,7 @@ export default function Home() {
                     <img src="..\images\mockup\Banner.png" class="size-fit"/> 
                 </section> */}
 
-            {/* <ContentPanel>
-                    <p class="subpixel-antialiased container mx-auto text-2xl px-8 pt-32">
-                        Welcome to <strong>Waldbusser Ciderworks</strong>, where the art of
-                        traditional cider making meets modern, transparent
-                        practices. Nestled in the heart of Oregon, we specialize
-                        in crafting exceptional ciders through a meticulous slow
-                        fermentation process that captures the essence of the
-                        apples we use.
-                    </p>
-                </ContentPanel> */}
+
 
 
             <TwoColumnPanel heading="our philosophy" order="ltr">
@@ -27,7 +18,6 @@ export default function Home() {
                 <p class="font-wb-paragraph text-wb-paragraph-black font-light subpixel-antialiased text-lg tablet:text-2xl mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Great cider starts with great ingredients. Our commitment to quality begins with sourcing the finest apples from local orchards. By partnering with growers who share our passion for sustainability and excellence, we ensure that every sip of our cider is a reflection of the rich, fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
                 </p>
-
             </TwoColumnPanel>
 
             <TwoColumnPanel heading="slow cider" order="rtl" striped>

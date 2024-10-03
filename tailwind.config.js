@@ -26,6 +26,7 @@ module.exports = {
       "wb-paragraph-black": "rgba(35, 35, 35, 0.8)",
       "wb-gray": "#F5F6F8",
       "wb-white": "rgb(255,255,255)",
+      "wb-stone": "rgb(168 162 158)"
     },
     extend: {
       fontFamily: {

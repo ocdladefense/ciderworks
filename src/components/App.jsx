@@ -9,6 +9,7 @@ import Ciders from "./pages/Ciders";
 import Growers from "./pages/Growers";
 import HowItsMade from "./pages/HowItsMade";
 import WhereToBuy from "./pages/WhereToBuy";
+import HomeHeader from "./pages/HomeHeader";
 import OrderProgress from "./pages/OrderProgress"
 
 export default function App() {
@@ -43,7 +44,7 @@ export default function App() {
             break;
         default:
             page = <Home />;
-            header = <img src="..\images\mockup\Banner.png" class="size-full" />;
+            header = <HomeHeader />;
             break;
     }
 
