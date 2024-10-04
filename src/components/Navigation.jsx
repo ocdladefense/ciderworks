@@ -51,6 +51,8 @@ export default function Navigation() {
 
     return (
         <nav class="">
+
+
             <ul class="main-nav">
 
                 <li class="col-span-1 col-start-2">
@@ -63,6 +65,7 @@ export default function Navigation() {
                 {items}
 
             </ul>
+
         </nav>
     );
 }
