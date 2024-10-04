@@ -24,17 +24,18 @@ export default function Footer() {
                 <div class="col-span-4 row-span-1 mb-4 tablet:mb-0 pl-0 tablet:pl-8">
                     <h3 class="text-wb-red text-lg">Contact</h3>
                     George Waldbusser, Owner<br />
-                    541-xxx-xxxx
-                    <Social instagram="waldbusserciderworks" fa-facebook="waldbusserciderworks" />
+                    <a href="tel:+14106101726">(410) 610-1726</a><br />
+                    <a href="mailto:info@waldbusserciderworks.com">info@waldbusserciderworks.com</a><br />
+                    <Social instagram="waldbusserciderworks" />
                 </div>
-                <Sitemap className="flex flex-col gap-8 text-nowrap text-wb-white lg:flex-row lg:gap-16">
-                    <SitemapCategory title="Temporary navigation" path="/"
+                <Sitemap className="flex flex-col gap-8 text-nowrap text-wb-white lg:flex-row lg:gap-16 font-slate-100">
+                    <SitemapCategory title="Waldbusser Ciderworks" path="/"
                         Home="/"
                         About="/about"
-                        How_Its_Made="/howitsmade"
+                        How_Its_Made="/how-its-made"
                         Growers="/growers"
-                        Where_To_Buy="/wheretobuy"
-                        Order_Progress="/orderprogress"
+                        Where_To_Buy="/where-to-buy"
+                        Order_Progress="/order-progress"
                         Contact_Us="/contact"
                     />
                 </Sitemap>

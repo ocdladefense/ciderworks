@@ -10,9 +10,6 @@ import ZipcodeSearch from "../ZipcodeSearch";
 export default function WhereToBuy() {
     return (
         <>
-
-            <h3 class="subpixel-antialiased text-4xl laptop:text-6xl laptop:text-8xl font-semibold text-center laptop:text-left text-wb-cordovan mb-8 container mx-auto content-heading">where to buy</h3>
-
             <section class="w-[90%] mx-auto tablet:mx-0 min-w-[300px] tablet:min-w-[560px] laptop:w-screen laptop:px-0 h-full flex justify-between gap-8 mb-32 laptop:mb-16 grid grid-cols-1 laptop:grid-cols-4 laptop:grid-flow-row">
 
                 <div class="grid-span-1">

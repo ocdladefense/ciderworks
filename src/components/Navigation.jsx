@@ -31,6 +31,10 @@ export default function Navigation() {
         {
             url: "/contact",
             label: "contact us"
+        },
+        {
+            url: "/order-progress",
+            label: "orders"
         }
     ];
 

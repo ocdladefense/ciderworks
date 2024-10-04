@@ -4,7 +4,7 @@ export default function StoreLocation({ name, address, phone }) {
     return (
         <li>
             <div>
-                <h4 class="text-wb-cordovan text-lg font-bold">{name}</h4>
+                <h4 class="text-wb-cordovan text-lg font-bold font-default-heading">{name}</h4>
                 <p class="text-base pl-2 border-l border-wb-cordovan">{address}</p>
                 <p class="text-base pl-2 border-l border-wb-cordovan">{phone}</p>
             </div>

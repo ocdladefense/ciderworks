@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     screens: {
       'phone': '320px',
-      'tablet': '640px',
+      'tablet': '800px',
       'laptop': '1024px',
       'desktop': '1280px'
     },
@@ -19,7 +19,8 @@ module.exports = {
         fontFamily: {
             sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
             serif: ["Tienne", ...defaultTheme.fontFamily.serif],
-            "wb-paragraph": ["Tienne"]
+            "default-paragraph": ["Tienne"],
+            "default-heading": ["Open Sans", ...defaultTheme.fontFamily.sans]
         },
         colors: {
             "wb-brown": "#794850", // ferra
@@ -29,7 +30,7 @@ module.exports = {
             "wb-blue": "#394657", // oxford blue
             "wb-orange": "#F68544", // jaffa
             "wb-black": "#2F2A2A",//"rgb(47,42,42)",
-            "wb-paragraph-black": "rgba(35, 35, 35, 0.8)",
+            "default-paragraph-black": "rgba(35, 35, 35, 0.8)",
             "wb-gray": "#F5F6F8",
             "wb-white": "rgb(255,255,255)",
             "wb-stone": "rgb(168 162 158)"

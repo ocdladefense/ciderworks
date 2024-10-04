@@ -52,7 +52,7 @@ export default function App() {
         <>
             <Header />
             {header}
-            <main class="grow overflow-x-hidden pt-12 tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
+            <main class="grow overflow-x-hidden pt-12 tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto font-default-paragraph">
                 {page}
             </main>
             <Footer />
