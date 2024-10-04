@@ -17,7 +17,7 @@ export default function Footer() {
 
     return (
         <footer class="text-slate-200 bg-wb-black p-4 pb-16 lg:p-8 lg:pb-32 w-full">
-            <div class="container mx-auto tablet:grid tablet:grid-cols-6 gap-0 tablet:gap-4 bg-wb-black pt-4 lg:pt-8">
+            <div class="container mx-auto tablet-portrait:mx-0 tablet-portrait:px-16 tablet:mx-auto tablet:grid tablet:grid-cols-6 gap-0 tablet:gap-4 bg-wb-black pt-4 lg:pt-8">
                 <a class="pl-4 lg:pl-8 size-full hidden laptop:block" href='/'>
                     <img src="../images/logos/Waldbusser Ciderworks - Logo Color-05.svg" class="hidden laptop:block" />
                 </a>
