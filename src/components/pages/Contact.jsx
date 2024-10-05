@@ -17,14 +17,29 @@ export default function Contact() {
             <section class="mb-8 container mx-auto flex flex-row justify-between gap-8">
                 <div class="flex-1">
                     <h3 class="subpixel-antialiased mb-8 text-wb-cordovan text-[2rem] content-heading font-default-heading">send us a message</h3>
-                    <form class="form flex flex-col w-full">
-                        <label>Name:</label>
-                        <input type="text" />
-                        <label>Email:</label>
-                        <input type="text" />
-                        <label>Message:</label>
-                        <textarea rows="10"></textarea>
-                        <button type="submit" class="mt-8 border-2 border-wb-cordovan bg-wb-cordovan text-wb-white w-40 rounded p-2">Submit</button>
+                    <form class="form flex flex-col w-full font-default-heading">
+                        <div class="py-4">
+                            <label class="block">Name</label>
+                            <input type="text" size="45" />
+                        </div>
+
+
+
+
+
+                        <div class="py-4">
+                            <label class="block">Email</label>
+                            <input type="text" size="45" />
+                        </div>
+
+                        <div class="py-4">
+                            <label class="block">Message</label>
+                            <textarea rows="10" cols="45"></textarea>
+                        </div>
+
+                        <div class="py-4">
+                            <button type="submit" class="mt-8 border-2 border-wb-cordovan bg-wb-cordovan text-wb-white w-40 rounded p-2">Submit</button>
+                        </div>
                     </form>
                 </div>
                 <div class="flex-1 hidden tablet:block">
@@ -43,13 +58,15 @@ export default function Contact() {
 
             <section class="mb-8 container mx-auto">
                 <h3 class="subpixel-antialiased mb-8 text-wb-cordovan text-[2rem] content-heading font-default-heading">OUR LOCATIONS</h3>
-                <p class="text-base">
-                    123 Main Street, Anytown, USA 12345
-                    (123) 456-7890
-                    <br />
-                    456 Second Street, Anytown, USA 67890
-                    (123) 456-7890
-                </p>
+                <ul class="text-base">
+                    <li>Waldbusser Ciderworks</li>
+                    <li>4473 SE 3rd St.</li>
+                    <li>Corvallis, OR  97333</li>
+                    <li><a href="http://ciderworks.ocdla.org/" class="hover:text-wb-lime">waldbusserciderworks.com</a></li>
+                    <li><a href="tel:+14106101726" class="hover:text-wb-lime">(410) 610-1726</a></li>
+                    <li><a href="mailto:info@waldbusserciderworks.com" class="hover:text-wb-lime">info@waldbusserciderworks.com</a></li>
+                </ul>
+
             </section>
         </>
     );
