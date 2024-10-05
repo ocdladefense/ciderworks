@@ -109,7 +109,8 @@ module.exports = env => {
                     "src/.nojekyll",
                     "src/manifest.json",
                     "src/sw.js",
-                    "src/robots.txt"
+                    "src/robots.txt",
+                    "src/.htaccess"
                 ]
             })
         ]
