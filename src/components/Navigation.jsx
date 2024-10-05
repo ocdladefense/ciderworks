@@ -19,7 +19,7 @@ export default function Navigation() {
         },
         {
             url: "/where-to-buy",
-            label: "where to buy"
+            label: "where to buy",
             hidden: false
         },
         {
