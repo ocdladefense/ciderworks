@@ -100,3 +100,10 @@ section div p {
   background-repeat: no-repeat;
   z-index: 1;
 }
+
+
+ul.social img {
+    padding: 3px;
+    margin-left: -5px;
+    opacity: 0.6;
+}
