@@ -23,8 +23,8 @@ export default function Footer() {
             <div class="container tablet:grid tablet:grid-cols-6">
 
                 <div class="col-start-1 pb-8">
-                    <a class="col-start-1" href='/'>
-                        <img class="size-16" src="../images/logos/logo.svg" />
+                    <a href='/'>
+                        <img class="size-16 tablet:size-28 laptop:size-36" src="../images/logos/logo.svg" />
                     </a>
                 </div>
 

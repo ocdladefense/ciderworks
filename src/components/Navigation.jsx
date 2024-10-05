@@ -46,7 +46,7 @@ export default function Navigation() {
 
 
     items = items.map(item => {
-        let phoneDisplay = !!item.hidden ? "hidden phone:hidden" : "phone:inline-block";
+        let phoneDisplay = !!item.hidden ? "hidden phone:hidden tablet:inline-block" : "phone:inline-block";
         return (
             <li class={`hidden ${phoneDisplay} p-2`}>
                 <a href={item.url}>
@@ -57,7 +57,7 @@ export default function Navigation() {
     });
 
     return (
-        <nav class="">
+        <nav class="tablet:px-8">
 
 
             <ul class="inline-block">
@@ -73,7 +73,7 @@ export default function Navigation() {
 
             </ul>
 
-            <div class="inline-block laptop:hidden" style="vertical-align:middle;">
+            <div class="inline-block hidden laptop:hidden" style="vertical-align:middle;">
                 <button class="relative group">
                     <div class="relative flex items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
                         <div class="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 group-focus:-rotate-[45deg] origin-center">
