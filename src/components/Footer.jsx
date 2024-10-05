@@ -31,7 +31,7 @@ export default function Footer() {
                 <div class="col-start-3 pb-8">
                     <h3 class="text-wb-red text-lg">Contact</h3>
                     <ul class="text-slate-400">
-                        <li>George Waldbusser, Owner</li>
+                        <li>George Waldbusser</li>
                         <li><a href="http://ciderworks.ocdla.org/" class="hover:text-wb-lime">waldbusserciderworks.com</a></li>
                         <li><a href="tel:+14106101726" class="hover:text-wb-lime">(410) 610-1726</a></li>
                         <li><a href="mailto:info@waldbusserciderworks.com" class="hover:text-wb-lime">info@waldbusserciderworks.com</a></li>
@@ -40,7 +40,7 @@ export default function Footer() {
                 </div>
 
                 <Sitemap className="col-start-5 text-nowrap text-stone-400 pb-8" style="font-weight:200;">
-                    <SitemapCategory title="Waldbusser Ciderworks" path="/" className="hover:text-wb-lime"
+                    <SitemapCategory title="Waldbusser Ciderworks" path="/" className="hover:text-stone-500"
                         Home="/"
                         About="/about"
                         How_Its_Made="/how-its-made"
