@@ -7,19 +7,19 @@ export default function TwoColumnPanel({ heading, children, order = "ltr", strip
                 <h3 class="subpixel-antialiased mb-8 text-wb-cordovan text-[2rem] content-heading font-default-heading">{heading}</h3>
             </div>
 
-            <div class="container-none tablet:grid laptop:container mx-auto h-full tablet:grid-cols-5 gap-6 laptop:gap-8 tablet:grid-flow-row row-span-4">
+            <div class="container-none tablet:grid laptop:container mx-auto h-full tablet:grid-cols-3 gap-6 laptop:gap-8 tablet:grid-flow-row row-span-4">
                 {order == "rtl" ? (
                     <>
                         <div class="subpixel-antialiased col-span-2 justify-self-start">
                             {children[1]}
                         </div>
-                        <div class="col-span-3 order-first laptop:order-last laptop:flex laptop:justify-self-end">
+                        <div class="col-span-1 order-first laptop:order-last laptop:flex laptop:justify-self-end">
                             {children[0]}
                         </div>
                     </>
                 ) : (
                     <>
-                        <div class="col-span-3 laptop:flex laptop:justify-self-start">
+                        <div class="col-span-1 laptop:flex laptop:justify-self-start">
                             {children[0]}
                         </div>
                         <div class="subpixel-antialiased col-span-2">
