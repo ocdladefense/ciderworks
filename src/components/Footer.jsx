@@ -9,28 +9,38 @@ import SitemapCategory from "@ocdla/global-components/src/SitemapCategory";
 import Social from "@ocdla/global-components/src/Social";
 import Contacts from "@ocdla/global-components/src/Contacts";
 import Logo from "@ocdla/global-components/src/Logo";
-
 import GoogleMaps from "@ocdla/global-components/src/GoogleMaps";
+
+
+
 
 export default function Footer() {
 
 
     return (
-        <footer class="text-slate-200 bg-wb-black p-4 pb-16">
-            <div class="container tablet:grid tablet:grid-cols-6 gap-0 tablet:gap-4 bg-wb-black">
-                <a class="pl-4 lg:pl-8 size-full hidden laptop:block" href='/'>
-                    <img src="../images/logos/Waldbusser Ciderworks - Logo Color-05.svg" class="hidden laptop:block" />
-                </a>
-                <div class="col-span-4 row-span-1 mb-4 tablet:mb-0 pl-0">
+        <footer class="text-slate-200 bg-wb-black p-8 tablet:p-16 laptop:p-32">
+
+            <div class="container tablet:grid tablet:grid-cols-6">
+
+                <div class="col-start-1 pb-8">
+                    <a class="col-start-1" href='/'>
+                        <img class="size-16" src="../images/logos/logo.svg" />
+                    </a>
+                </div>
+
+                <div class="col-start-3 pb-8">
                     <h3 class="text-wb-red text-lg">Contact</h3>
-                    George Waldbusser, Owner<br />
-                    <a href="http://ciderworks.ocdla.org/" class="text-slate-400 hover:text-wb-lime">waldbusserciderworks.com</a><br />
-                    <a href="tel:+14106101726" class="text-slate-400 hover:text-wb-lime">(410) 610-1726</a><br />
-                    <a href="mailto:info@waldbusserciderworks.com" class="text-slate-400 hover:text-wb-lime">info@waldbusserciderworks.com</a><br />
+                    <ul class="text-slate-400">
+                        <li>George Waldbusser, Owner</li>
+                        <li><a href="http://ciderworks.ocdla.org/" class="hover:text-wb-lime">waldbusserciderworks.com</a></li>
+                        <li><a href="tel:+14106101726" class="hover:text-wb-lime">(410) 610-1726</a></li>
+                        <li><a href="mailto:info@waldbusserciderworks.com" class="hover:text-wb-lime">info@waldbusserciderworks.com</a></li>
+                    </ul>
                     <Social instagram="waldbusserciderworks" />
                 </div>
-                <Sitemap className="flex flex-col gap-8 text-nowrap text-wb-white">
-                    <SitemapCategory title="Waldbusser Ciderworks" path="/" className="text-slate-300 hover:text-wb-lime"
+
+                <Sitemap className="col-start-5 text-nowrap text-stone-400 pb-8" style="font-weight:200;">
+                    <SitemapCategory title="Waldbusser Ciderworks" path="/" className="hover:text-wb-lime"
                         Home="/"
                         About="/about"
                         How_Its_Made="/how-its-made"
@@ -40,7 +50,9 @@ export default function Footer() {
                         Contact_Us="/contact"
                     />
                 </Sitemap>
+
             </div>
+
         </footer>
     );
 }

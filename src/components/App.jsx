@@ -9,7 +9,7 @@ import Ciders from "./pages/Ciders";
 import Growers from "./pages/Growers";
 import HowItsMade from "./pages/HowItsMade";
 import WhereToBuy from "./pages/WhereToBuy";
-import HomeHeader from "./pages/HomeHeader";
+import HomeHeader from "./HomeHeader";
 import OrderProgress from "./pages/OrderProgress"
 
 export default function App() {

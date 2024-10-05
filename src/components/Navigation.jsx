@@ -40,12 +40,13 @@ export default function Navigation() {
 
 
     items = items.map(item => {
+        let phoneDisplay = !!item.hidden ? "phone:hidden" : "phone:display-inline-block";
         return (
-            <div class="col-span-1">
-                <a style='color: #FFF;' href={item.url}>
-                    <button class="text-white text-base subpixel-antialiased hover:text-wb-cordovan pb-0 pt-1">{item.label}</button>
+            <li class={`col-span-1 hidden {$phoneDisplay} tablet:display-inline`}>
+                <a href={item.url}>
+                    <button class={`text-base subpixel-antialiased hover:text-wb-cordovan`}>{item.label}</button>
                 </a>
-            </div>
+            </li>
         );
     });
 
@@ -53,11 +54,11 @@ export default function Navigation() {
         <nav class="">
 
 
-            <ul class="main-nav hidden laptop:block">
+            <ul class="main-nav display-inline-block">
 
                 <li class="col-span-1 col-start-2">
                     <a class="flex px-4" href="/">
-                        <img style="vertical-align:middle;" width="30" height="30" src="../images/logos/Waldbusser Ciderworks - Logo Color-05.svg" />
+                        <img style="vertical-align:middle;" width="30" height="30" src="../images/logos/logo.svg" />
                     </a>
                 </li>
 
