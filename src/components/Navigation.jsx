@@ -14,27 +14,33 @@ export default function Navigation() {
         },
         {
             url: "/growers",
-            label: "growers"
+            label: "growers",
+            hidden: true
         },
         {
             url: "/where-to-buy",
             label: "where to buy"
+            hidden: false
         },
         {
             url: "/how-its-made",
-            label: "how it's made"
+            label: "how it's made",
+            hidden: true
         },
         {
             url: "/about",
-            label: "about"
+            label: "about",
+            hidden: true
         },
         {
             url: "/contact",
-            label: "contact us"
+            label: "contact us",
+            hidden: false
         },
         {
             url: "/order-progress",
-            label: "orders"
+            label: "orders",
+            hidden: true
         }
     ];
 
