@@ -27,7 +27,7 @@ export default function Contact() {
                         <button type="submit" class="mt-8 border-2 border-wb-cordovan bg-wb-cordovan text-wb-white w-40 rounded p-2">Submit</button>
                     </form>
                 </div>
-                <div class="flex-1">
+                <div class="flex-1 hidden tablet:block">
                     <img src="../images/logos/Waldbusser Ciderworks - Logo Cordovan.png" />
                 </div>
 
@@ -35,14 +35,14 @@ export default function Contact() {
 
 
             <section class="mb-8 container mx-auto">
-                <h3 class="text-wb-cordovan text-2xl font-semibold">SOCIAL MEDIA</h3>
+                <h3 class="subpixel-antialiased mb-8 text-wb-cordovan text-[2rem] content-heading font-default-heading">SOCIAL MEDIA</h3>
                 <Social instagram-solid="/" />
             </section>
 
 
 
             <section class="mb-8 container mx-auto">
-                <h3 class="text-wb-cordovan text-2xl font-semibold">OUR LOCATIONS</h3>
+                <h3 class="subpixel-antialiased mb-8 text-wb-cordovan text-[2rem] content-heading font-default-heading">OUR LOCATIONS</h3>
                 <p class="text-base">
                     123 Main Street, Anytown, USA 12345
                     (123) 456-7890

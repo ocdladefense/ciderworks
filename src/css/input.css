@@ -3,6 +3,18 @@
 @tailwind utilities;
 @tailwind forms;
 
+@layer base {
+  @font-face {
+    font-family: 'Smoothy Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/src/css/fonts/smoothy-sans-regular.ttf) format('truetype');
+  }
+}
+.font-smoothy {
+  font-family: var(--font-family-smoothy);
+}
 
 nav .col-span-1 {
     display: inline-block;
@@ -45,4 +57,39 @@ section div p {
 
 .callout p {
     font-size: 1.0rem;
+}
+
+.hero-image {
+  @apply relative;
+  background-position: center;
+}
+
+.overlay-logo {
+  background-image: url('/src/images/logos/Waldbusser\ Ciderworks\ -\ Logo\ White.png');
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-size:contain;
+  background-position: center;
+  object-fit:contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.overlay-slow-cider {
+  background-image: url('/src/images/mockup/slow-cider.png');
+   position: absolute;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-size:contain;
+  background-position: center;
+  object-fit:contain;
+  background-repeat: no-repeat;
+  z-index: 1;
 }

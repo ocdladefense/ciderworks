@@ -29,7 +29,7 @@ export default function Footer() {
                     <a href="mailto:info@waldbusserciderworks.com" class="text-slate-400 hover:text-wb-lime">info@waldbusserciderworks.com</a><br />
                     <Social instagram="waldbusserciderworks" />
                 </div>
-                <Sitemap className="flex flex-col gap-8 text-nowrap text-wb-white lg:flex-row lg:gap-16">
+                <Sitemap className="flex flex-col gap-8 text-nowrap text-wb-white">
                     <SitemapCategory title="Waldbusser Ciderworks" path="/" className="text-slate-300 hover:text-wb-lime"
                         Home="/"
                         About="/about"

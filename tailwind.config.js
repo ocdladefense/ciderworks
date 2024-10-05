@@ -21,7 +21,8 @@ module.exports = {
             sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
             serif: ["Tienne", ...defaultTheme.fontFamily.serif],
             "default-paragraph": ["Tienne"],
-            "default-heading": ["Open Sans", ...defaultTheme.fontFamily.sans]
+            "default-heading": ["Open Sans", ...defaultTheme.fontFamily.sans],
+            smoothy: ["Smoothy Sans", ...defaultTheme.fontFamily.sans],
         },
         colors: {
             "wb-brown": "#794850", // ferra

@@ -5,7 +5,12 @@ export default function HomeHeader() {
 
     return (
         <>
-            <img src="..\images\mockup\Banner.png" class="size-full" />
+            <div class="hero-image">
+                <img src="..\images\mockup\banner-clear.png" class="size-full brightness-50" />
+                <div class="overlay-logo"></div>
+                <div class="overlay-slow-cider"></div>
+            </div>
+
 
             <section class="callout bg-wb-black tablet:mb-16">
                 <p class="subpixel-antialiased container text-2xl mx-auto tablet-portrait:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto px-8 py-20 font-default-paragraph">
