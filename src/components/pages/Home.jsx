@@ -49,7 +49,7 @@ export default function Home() {
 
 
             <TwoColumnPanel heading="our ciders" order="rtl">
-                <img src="../images/mockup/bottles.png" class="rounded pb-8 " />
+                <img src="../images/bottles/bottles.png" class="rounded pb-8 " />
                 <p class="font-default-paragraph text-default-paragraph-black font-light subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Each cider we produce tells a story. From crisp,
                     refreshing styles to rich, robust blends, our range

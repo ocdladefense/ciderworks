@@ -15,7 +15,7 @@ export default function WhereToBuy() {
                 <div class="grid-span-1">
 
                     <ul class="subpixel-antialiased text-2xl laptop:text-3xl mt-8">
-                        <StoreHub city="Corvalis" state="OR">
+                        <StoreHub city="Corvallis" state="OR">
                             <StoreLocation name="Albertsons" address="1234 NW Corvallis, OR 97330" phone="(123) 456-7890" />
                             <StoreLocation name="Safeway" address="1234 NW Corvallis, OR 97330" phone="(123) 456-7890" />
                             <StoreLocation name="Whole Foods" address="1234 NW Corvallis, OR 97330" phone="(123) 456-7890" />
