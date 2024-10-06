@@ -1,8 +1,8 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
 import TwoColumnPanel from "../TwoColumnPanel";
-import ProgressBar from "../ProgressBar";
-import ProgressStep from "../ProgressStep";
+import ProgressBar from "../orders/ProgressBar";
+import ProgressStep from "../orders/ProgressStep";
 
 export default function OrderProgress() {
     return (
