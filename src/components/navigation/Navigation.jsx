@@ -1,6 +1,6 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-import Logo from "@ocdla/global-components/src/Logo";
+import Hamburger from "./Hamburger";
 
 export default function Navigation() {
     let items = [
@@ -45,12 +45,24 @@ export default function Navigation() {
     ];
 
 
-    items = items.map(item => {
+    let top = items.map(item => {
         let phoneDisplay = !!item.hidden ? "hidden phone:hidden tablet:inline-block" : "phone:inline-block";
         return (
             <li class={`hidden ${phoneDisplay} p-2`}>
                 <a href={item.url}>
                     <button class={`font-marketing text-base subpixel-antialiased hover:text-wb-cordovan`}>{item.label}</button>
+                </a>
+            </li>
+        );
+    });
+
+
+    let all = items.map(item => {
+        // let phoneDisplay = !!item.hidden ? "hidden phone:hidden tablet:inline-block" : "phone:inline-block";
+        return (
+            <li class="p-2 text-center">
+                <a href={item.url}>
+                    <button class="text-center font-marketing text-base subpixel-antialiased hover:text-wb-cordovan">{item.label}</button>
                 </a>
             </li>
         );
@@ -68,22 +80,21 @@ export default function Navigation() {
                     </a>
                 </li>
 
-
-                {items}
-
+                {top}
 
             </ul>
 
 
-            <div
-                style="float:right; margin-right:15px;" id="toggleMenu"
-                class="tablet:hidden grid place-content-center w-20 h-10 p-6 mx-auto"
-            >
-                <div
-                    class="hamburgler inline-block w-6 h-1 bg-menu rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-menu before:rounded-full before:-translate-y-3 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-8 after:h-1 after:bg-menu after:rounded-full after:translate-y-3 after:transition-all after:duration-150"
-                ></div>
-            </div>
 
+            <Hamburger />
+
+
+            <ul id="mobile-menu" class="block hidden min-h-[100vh] pt-[15vh]">
+
+
+                {all}
+
+            </ul>
 
 
         </nav>

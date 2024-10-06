@@ -14,6 +14,9 @@ _Note: A secret is necessary to utilitze GitHub's Deploy to GitHub Pages functio
 4. Run <code>npm run build</code>.
 5. Optionally, preview the base website using <code>npm run watch</code>.
 
+## Halt and Catch Fire (HCF)
+- Content for "Drink" page - "Now serving in Oregon"
+
 ## Additional resources
 * [Babel online parser](https://babeljs.io/repl/#?browsers=defaults)
 
