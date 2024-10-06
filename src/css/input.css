@@ -4,6 +4,13 @@
 @tailwind forms;
 
 
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 @font-face {
     font-family: 'Smoothy Cursive';
     src: url(/src/css/fonts/smoothy-sans-regular.ttf) format('truetype');
@@ -15,14 +22,14 @@
     section div.container {
         max-width: 70%;
     }
-    main:not(.ciders, .drink) {
+    main:not(.ciders, .drink, .order-progress) {
         max-width: 90%;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width:1200px) {
-    main:not(.ciders, .drink) {
+    main:not(.ciders, .drink, .order-progress) {
         max-width: 80%;
         margin: 0 auto;
     }

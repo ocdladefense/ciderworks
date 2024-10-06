@@ -3,10 +3,17 @@ import { vNode, View } from "@ocdla/view";
 import TwoColumnPanel from "../TwoColumnPanel";
 import ProgressBar from "../orders/ProgressBar";
 import ProgressStep from "../orders/ProgressStep";
+import "../orders/wave.css";
 
 export default function OrderProgress() {
     return (
         <>
+
+
+            <div class="wrapper">
+                <div class="wave"></div>
+            </div>
+
 
             <section class="font-default-heading container-none laptop:container h-full mx-auto flex justify-between gap-12 mb-32 laptop:mb-16 grid grid-cols-1 tablet:grid-cols-2 tablet:grid-flow-row my-8 bg-wb-gray gap-8 rounded-lg p-8">
                 <div class="grid-span-1 tablet:border-r-2 tablet:pr-8 tablet:border-wb-cordovan">

@@ -18,7 +18,20 @@ export default function Footer() {
 
 
     return (
-        <footer class="text-slate-200 bg-wb-black p-8 tablet:p-16 laptop:p-32">
+        <footer class="text-slate-200 bg-wb-black p-8 tablet:p-16 laptop:p-32 laptop:pt-16">
+
+
+            {/*
+            <section class="shape-section">
+                <div class="container diamond-shape">
+                    <div class="item-count">99</div>
+                </div>
+            </section>
+*/}
+
+            <div class="container text-slate-200 text-center text-4xl mb-20" style="line-height:1.0rem;">
+                <span class="allura-regular text-slate-300 block">Slow</span><span class="font-marketing text-xl text-slate-300 inline-block">cider</span>
+            </div>
 
             <div class="container tablet:grid tablet:grid-cols-6">
 
@@ -53,7 +66,7 @@ export default function Footer() {
 
             </div>
 
-        </footer>
+        </footer >
     );
 }
 

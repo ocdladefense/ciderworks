@@ -10,8 +10,14 @@ export default function Home() {
                     <img src="..\images\mockup\Banner.png" class="size-fit"/> 
                 </section> */}
 
-
-
+            <div id="shape-divider-shape_divider-1" class="shape-divider w-full   pointer-events-none z-20 absolute top-0 left-0 w-full">
+                <div class="shape-divider-transform-reset">
+                    <div x-ref="animation-container" class="shape-divider-svg-container flex relative left-0 min-w-full  -mt-shape-divider" style="padding-top: 7.0%;"><div class=" z-0 absolute top-0 left-0 right-0 bottom-0 text-scheme-background h-full w-full text-scheme-background">
+                        <svg class="z-0 absolute top-0 left-0  right-0 bottom-0 text-scheme-background h-full w-full text-scheme-background  " data-color-scheme="primary" width="100%" height="100%" viewBox="0 0 1200.0 84.0" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M600 39.1293C800 84.6351 1000 84.6351 1200 39.1294V84.0001H0L3.48561e-06 39.1293C200 -6.37645 400 -6.37643 600 39.1293Z" fill="currentColor"></path>
+                            <path class="shape-divider-stroke" vector-effect="non-scaling-stroke" d="M1201 39.1294C1001 84.6351 801 84.6351 601 39.1293C401 -6.37643 201 -6.37645 1 39.1293" stroke="black"></path></svg>
+                    </div></div>
+                </div>
+            </div>
 
             <TwoColumnPanel heading="our philosophy" order="ltr">
                 <img src="../images/mockup/Photo_Section_1.png" class="rounded pb-8 " />
