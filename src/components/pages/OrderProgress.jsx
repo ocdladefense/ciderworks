@@ -28,14 +28,14 @@ export default function OrderProgress() {
                     </div>
                 </div>
                 <div class="grid-span-2">
-                    <ProgressStep name="Ordering" status="Complete" />
-                    <ProgressStep name="Pressing" status="Complete" />
-                    <ProgressStep name="Fermenting" status="Pending">
+                    <ProgressStep name="Ordering" status="complete" />
+                    <ProgressStep name="Pressing" status="complete" />
+                    <ProgressStep name="Fermenting" status="pending">
                         <ProgressBar percentage="70" />
                     </ProgressStep>
-                    <ProgressStep name="Bottling" status="Incomplete" />
-                    <ProgressStep name="Racking" status="Incomplete" />
-                    <ProgressStep name="Maturing" status="Incomplete" />
+                    <ProgressStep name="Bottling" status="incomplete" />
+                    <ProgressStep name="Racking" status="incomplete" />
+                    <ProgressStep name="Maturing" status="incomplete" />
                 </div>
             </section>
 
