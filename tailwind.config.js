@@ -22,7 +22,8 @@ module.exports = {
             serif: ["Tienne", ...defaultTheme.fontFamily.serif],
             "default-paragraph": ["Tienne"],
             "default-heading": ["Open Sans", ...defaultTheme.fontFamily.sans],
-            smoothy: ["Smoothy Sans", ...defaultTheme.fontFamily.sans]
+            smoothy: ["Smoothy Cursive", ...defaultTheme.fontFamily.sans],
+            marketing: ["Marketing", ...defaultTheme.fontFamily.sans]
         },
         colors: {
             "wb-brown": "#794850", // ferra
@@ -36,7 +37,14 @@ module.exports = {
             "default-paragraph-black": "rgba(35, 35, 35, 0.8)",
             "wb-gray": "#F5F6F8",
             "wb-white": "rgb(255,255,255)",
-            "wb-stone": "rgb(168 162 158)"
+            "wb-stone": "rgb(168 162 158)",
+            "burst": "rgb(109,67,83)",
+            "burst-light": "rgb(248,224,170)",
+            "burst-dark": "rgb(219,136,70)",
+            "plush":"rgb(43,61,69)",
+            "bonfire":"rgb(40,48,33)",
+            "sunshine":"rgb(247,224,170)",
+            "sunshine-dark":"rgb(158,50,48)"
         }
     }
   },

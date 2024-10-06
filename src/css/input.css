@@ -5,9 +5,35 @@
 
 
   @font-face {
-    font-family: 'Smoothy Sans';
+    font-family: 'Smoothy Cursive';
     src: url(/src/css/fonts/smoothy-sans-regular.ttf) format('truetype');
   }
+
+
+
+@media screen and (min-width:1024px) {
+    section div.container {
+        max-width: 70%;
+    }
+    main:not(.ciders) {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    main:not(.ciders) {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+section.cider {
+    margin-bottom:0px;
+}
 
 
   @font-face {

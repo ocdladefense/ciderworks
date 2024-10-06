@@ -29,17 +29,4 @@ _Note: A secret is necessary to utilitze GitHub's Deploy to GitHub Pages functio
 * https://developer.apple.com/design/human-interface-guidelines/app-icons#App-icon-sizes
 
 ## TODO
-- Grab the "slow cider" icon
-- Use logo overlay from hero image
-- Fix any headings to use the "sans serif" font
-- - Apply additional font for "slow cider":
- -- - Figure out how to use the Smoothy font that is included in the Google Drive (i.e., embed it using webpack and setup the appropriate styles)
- -- Smoothy (Adobe) compile the font in Webpack + write the text "Slow Cider" with the Smoothy font in the footer.
-- Extract all bottle images
-- Remove Facebook social icon
-- Use George's actual cell number and use the href:tel for the phone number
-- List the domain of waldbusserciderworks.com - link to ciderworks.ocdla.org
-- Add phone number 410-610-1726
-- Add email info@waldbusserciderworks.com
-- Correct color of footer links
-- Replace heading "Temprorary nav" with "Waldbusser Ciderworks" 
+- https://stackoverflow.com/questions/45400065/open-graph-sms-rich-messages-on-android-and-ios

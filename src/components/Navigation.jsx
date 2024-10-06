@@ -19,7 +19,7 @@ export default function Navigation() {
         },
         {
             url: "/where-to-buy",
-            label: "where to buy",
+            label: "drink",
             hidden: false
         },
         {
@@ -50,7 +50,7 @@ export default function Navigation() {
         return (
             <li class={`hidden ${phoneDisplay} p-2`}>
                 <a href={item.url}>
-                    <button class={`text-base subpixel-antialiased hover:text-wb-cordovan`}>{item.label}</button>
+                    <button class={`font-marketing text-base subpixel-antialiased hover:text-wb-cordovan`}>{item.label}</button>
                 </a>
             </li>
         );
