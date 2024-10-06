@@ -8,7 +8,7 @@ export default function Ciders() {
         <>
 
 
-            <section class={`cider bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+            <section class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
                         <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>sunshine</h3>
@@ -36,7 +36,7 @@ export default function Ciders() {
 
 
 
-            <section class={`cider bg-plush laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+            <section class={`fullscreen bg-plush laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
                         <h3 class={`text-burst-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>plush</h3>
@@ -62,7 +62,7 @@ export default function Ciders() {
 
 
 
-            <section class={`cider bg-bonfire laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+            <section class={`fullscreen bg-bonfire laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
                         <h3 class={`text-burst-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>bonfire</h3>
@@ -88,7 +88,7 @@ export default function Ciders() {
             </section>
 
 
-            <section class={`cider bg-burst laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+            <section class={`fullscreen bg-burst laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
                         <h3 class={`text-burst-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>burst</h3>

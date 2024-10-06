@@ -15,14 +15,14 @@
     section div.container {
         max-width: 70%;
     }
-    main:not(.ciders) {
+    main:not(.ciders, .drink) {
         max-width: 90%;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width:1200px) {
-    main:not(.ciders) {
+    main:not(.ciders, .drink) {
         max-width: 80%;
         margin: 0 auto;
     }
@@ -31,7 +31,7 @@
 
 
 
-    section.cider {
+    section.fullscreen {
         margin-bottom:0px;
     }
 

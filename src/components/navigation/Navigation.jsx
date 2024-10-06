@@ -18,7 +18,7 @@ export default function Navigation() {
             hidden: true
         },
         {
-            url: "/where-to-buy",
+            url: "/drink",
             label: "drink",
             hidden: false
         },

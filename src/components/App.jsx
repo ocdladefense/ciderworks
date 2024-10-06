@@ -33,7 +33,7 @@ export default function App() {
         case "how-its-made":
             page = <HowItsMade />;
             break;
-        case "where-to-buy":
+        case "drink":
             page = <WhereToBuy />;
             break;
         case "order-progress":
