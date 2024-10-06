@@ -22,10 +22,11 @@ module.exports = {
             serif: ["Tienne", ...defaultTheme.fontFamily.serif],
             "default-paragraph": ["Tienne"],
             "default-heading": ["Open Sans", ...defaultTheme.fontFamily.sans],
-            smoothy: ["Smoothy Sans", ...defaultTheme.fontFamily.sans],
+            smoothy: ["Smoothy Sans", ...defaultTheme.fontFamily.sans]
         },
         colors: {
             "wb-brown": "#794850", // ferra
+            "menu": "rgba(255, 255, 255, 0.6)",
             "wb-cordovan": "#7D4F52",
             "wb-red": "#D0375C", // brick red
             "wb-lime": "#B5E179", // yellow green

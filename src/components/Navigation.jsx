@@ -64,26 +64,27 @@ export default function Navigation() {
 
                 <li style="vertical-align:middle;" class="inline-block p-2">
                     <a href="/">
-                        <img style="vertical-align:middle;" width="30" height="30" src="../images/logos/logo.svg" />
+                        <img style="inline-block vertical-align:middle;" width="30" height="30" src="../images/logos/logo.svg" />
                     </a>
                 </li>
 
 
                 {items}
 
+
             </ul>
 
-            <div class="inline-block hidden laptop:hidden" style="vertical-align:middle;">
-                <button class="relative group">
-                    <div class="relative flex items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
-                        <div class="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 group-focus:-rotate-[45deg] origin-center">
-                            <div class="bg-white h-[2px] w-1/2 rounded transform transition-all duration-300 group-focus:-rotate-90 group-focus:h-[1px] origin-right delay-75 group-focus:-translate-y-[1px]"></div>
-                            <div class="bg-white h-[1px] rounded"></div>
-                            <div class="bg-white h-[2px] w-1/2 rounded self-end transform transition-all duration-300 group-focus:-rotate-90 group-focus:h-[1px] origin-left delay-75 group-focus:translate-y-[1px]"></div>
-                        </div>
-                    </div>
-                </button>
+
+            <div
+                style="float:right; margin-right:15px;" id="toggleMenu"
+                class="tablet:hidden grid place-content-center w-20 h-10 p-6 mx-auto"
+            >
+                <div
+                    class="hamburgler inline-block w-6 h-1 bg-menu rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-menu before:rounded-full before:-translate-y-3 before:transition-all before:duration-150 after:content-[''] after:absolute after:w-8 after:h-1 after:bg-menu after:rounded-full after:translate-y-3 after:transition-all after:duration-150"
+                ></div>
             </div>
+
+
 
         </nav>
     );
