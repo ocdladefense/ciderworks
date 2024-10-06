@@ -19,7 +19,7 @@ export default function Ciders() {
 
 
                         <div class="col-span-1 laptop:flex laptop:justify-self-start">
-                            <img src="../images/bottles/bonfire.png" class="rounded pb-8 object-cover mx-auto" />
+                            <img src="../images/bottles/sunshine.png" class="rounded pb-8 object-cover mx-auto" />
                         </div>
                         <div class="subpixel-antialiased col-span-2">
 
