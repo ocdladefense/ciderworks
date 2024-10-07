@@ -15,7 +15,12 @@ _Note: A secret is necessary to utilitze GitHub's Deploy to GitHub Pages functio
 5. Optionally, preview the base website using <code>npm run watch</code>.
 
 ## Halt and Catch Fire (HCF)
-- Content for "Drink" page - "Now serving in Oregon"
+* Content for "Drink" page - "Now serving in Oregon"
+* https://www.shapedivider.app/
+* https://haikei.app/
+* https://fireship.io/lessons/wavy-backgrounds/
+* https://codepen.io/nickelse/pen/YWOxQG
+
 
 ## Additional resources
 * [Babel online parser](https://babeljs.io/repl/#?browsers=defaults)

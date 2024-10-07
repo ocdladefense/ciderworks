@@ -30,14 +30,15 @@ export default function Footer() {
 */}
 
             <div class="container text-slate-200 text-center text-4xl mb-20" style="line-height:1.0rem;">
-                <span class="allura-regular text-slate-300 block">Slow</span><span class="font-marketing text-xl text-slate-300 inline-block">cider</span>
+                <span class="allura-regular text-slate-300 inline-block">Slow</span>&nbsp;<span class="font-marketing text-xl text-slate-300 inline-block">cider</span>
+                <span class="pl-8 allura-regular text-slate-300 inline-block">Made</span>&nbsp;<span class="font-marketing text-xl text-slate-300 inline-block">dry</span>
             </div>
 
             <div class="container tablet:grid tablet:grid-cols-6">
 
                 <div class="col-start-1 pb-8">
                     <a href='/'>
-                        <img class="size-16 tablet:size-28 laptop:size-36" src="../images/logos/logo.svg" />
+                        <img style="width:50%;" class="tablet:size-28 laptop:size-36" src="../images/logos/logo.svg" />
                     </a>
                 </div>
 

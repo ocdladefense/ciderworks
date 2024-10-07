@@ -52,7 +52,7 @@ export default function App() {
         <>
             <Header />
             {header}
-            <main class={`grow overflow-x-hidden pt-12 font-default-paragraph ${location}`}>
+            <main class={`grow overflow-x-hidden font-default-paragraph ${location}`}>
                 {page}
             </main>
             <Footer />
