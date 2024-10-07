@@ -15,6 +15,8 @@ _Note: A secret is necessary to utilitze GitHub's Deploy to GitHub Pages functio
 5. Optionally, preview the base website using <code>npm run watch</code>.
 
 ## Halt and Catch Fire (HCF)
+* Content: what is quince?  what are dessert apples?
+* How is this distinguished from other ciders?
 * Content for "Drink" page - "Now serving in Oregon"
 * https://www.shapedivider.app/
 * https://haikei.app/

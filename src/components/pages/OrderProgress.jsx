@@ -9,11 +9,11 @@ export default function OrderProgress() {
     return (
         <>
 
-
+            {/*}
             <div class="wrapper">
                 <div class="wave"></div>
             </div>
-
+                */}
 
             <section class="font-default-heading container-none laptop:container h-full mx-auto flex justify-between gap-12 mb-32 laptop:mb-16 grid grid-cols-1 tablet:grid-cols-2 tablet:grid-flow-row my-8 bg-wb-gray gap-8 rounded-lg p-8">
                 <div class="grid-span-1 tablet:border-r-2 tablet:pr-8 tablet:border-wb-cordovan">
@@ -67,12 +67,12 @@ export default function OrderProgress() {
                     </div>
                 </div>
                 <div class="grid-span-2">
-                    <ProgressStep name="Ordering" status="Complete" />
-                    <ProgressStep name="Pressing" status="Pending" />
-                    <ProgressStep name="Fermenting" status="Incomplete" />
-                    <ProgressStep name="Bottling" status="Incomplete" />
-                    <ProgressStep name="Racking" status="Incomplete" />
-                    <ProgressStep name="Maturing" status="Incomplete" />
+                    <ProgressStep name="Ordering" status="complete" />
+                    <ProgressStep name="Pressing" status="pending" />
+                    <ProgressStep name="Fermenting" status="incomplete" />
+                    <ProgressStep name="Bottling" status="incomplete" />
+                    <ProgressStep name="Racking" status="incomplete" />
+                    <ProgressStep name="Maturing" status="incomplete" />
                 </div>
             </section>
         </>
