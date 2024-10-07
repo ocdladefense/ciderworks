@@ -38,7 +38,7 @@ export default function Footer() {
 
                 <div class="col-start-1 pb-8">
                     <a href='/'>
-                        <img style="width:50%;" class="tablet:size-28 laptop:size-36" src="../images/logos/logo.svg" />
+                        <img src="../images/logos/logo.svg" />
                     </a>
                 </div>
 
