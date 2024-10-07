@@ -11,8 +11,8 @@ export default function ZipcodeSearch() {
                 </div>
             </form> */}
             <form action="/where-to-buy" class="w-full text-wb-black mx-auto laptop:mx-0 mb-8">
-                <input type="search" id="zipcode" class="py-8 laptop:p-4 ps-10 border border-gray-300 rounded-l-lg w-5/6" placeholder="Zipcode" max="5" />
-                <button type="submit" class="py-8 laptop:p-4 border border-gray-300 rounded-r-lg bg-wb-gray font-bold w-1/6">Search</button>
+                <input type="search" id="zipcode" class="p-4 border border-gray-300 rounded-l-lg w-2/3 font-marketing" placeholder="zip code" size="5" />
+                <button type="submit" class="p-4 border border-gray-300 rounded-r-lg bg-wb-gray font-bold w-1/3 font-marketing">Search</button>
             </form>
         </>
     )
