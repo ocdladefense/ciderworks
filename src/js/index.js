@@ -3,6 +3,8 @@ import { vNode, View } from "@ocdla/view";
 import "../css/input.css";
 import App from "./App.jsx";
 
+
+
 if (USE_MOCK) {}
 
 const $root = document.getElementById("root");

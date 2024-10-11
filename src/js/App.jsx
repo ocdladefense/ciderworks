@@ -2,9 +2,10 @@
 import { vNode, View } from "@ocdla/view";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Router from "./Router";
+import routes from "../data/routes.js";
+import Router from "./Router.js";
 
-let router = new Router();
+let router = new Router(routes);
 let { Page, HeaderTwo } = await router.getPage();
 console.log(Page, HeaderTwo);
 let location = router.getLocation();

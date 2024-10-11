@@ -3,8 +3,10 @@ import { vNode, View } from "@ocdla/view";
 
 export default class Router {
 
-    constructor() {
+    #routes;
 
+    constructor(routes) {
+        this.#routes = routes;
     }
 
     getLocation() {
@@ -15,46 +17,24 @@ export default class Router {
     async getPage() {
 
         const location = window.location.href.split("/").at(-1).toLowerCase();
-        let page;
-        let header = <></>;
         
-    
-        switch (location) {
-            case "about":
-                page = "About";
-                break;
-            case "contact":
-                page = "Contact";
-                break;
-            case "growers":
-                page = "Growers";
-                break;
-            case "ciders":
-                page = "Ciders";
-                break;
-            case "how-its-made":
-                page = "HowItsMade";
-                break;
-            case "drink":
-                page = "WhereToBuy";
-                break;
-            case "order-progress":
-                page = "OrderProgress";
-                break;
-            case "whats-brewing":
-                page = "OrderProgress";
-                break;
-            default:
-                page = "Home";
-                let h = await import("../components/HomeHeader");
-                header = h.default;
-                
-                break;
+        // Module providing the component.
+        let module;
+
+        // Component that should be imported and then injected into the page.
+        let page = this.#routes[location] || "Home";
+        
+        // Default header value.
+        let header = <></>;
+
+        if (page === "Home") {
+            let h = await import("../components/HomeHeader");
+            header = h.default;
         }
 
         
         console.log(header);
-        let module = await import(`../components/pages/${page}`);
+        module = await import(`../components/pages/${page}`);
 
 
         return {Page: module.default, HeaderTwo: header};
