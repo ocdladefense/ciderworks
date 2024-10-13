@@ -3,10 +3,21 @@ import { vNode, View } from "@ocdla/view";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import routes from "../data/routes.js";
-import Router from "./Router.js";
+import Router from "@ocdla/lib-routing/src/Router.js";
 
 let router = new Router(routes);
-let { Page, HeaderTwo } = await router.getPage();
+router.setDefaultPage("Home");
+
+
+let Page = await router.getPage();
+let HeaderTwo;
+
+if (["Home", ""].includes(router.getRoute())) {
+    let h = await import("../components/HomeHeader");
+    HeaderTwo = h.default;
+}
+
+
 console.log(Page, HeaderTwo);
 let location = router.getLocation();
 
@@ -16,7 +27,7 @@ export default function App() {
     return (
         <>
             <Header />
-            {typeof HeaderTwo === "function" ? <HeaderTwo /> : HeaderTwo}
+            {typeof HeaderTwo === "function" ? <HeaderTwo /> : <></>}
             <main class={`grow overflow-x-hidden font-default-paragraph ${location}`}>
                 <Page />
             </main>

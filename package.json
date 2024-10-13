@@ -20,6 +20,7 @@
     "@ocdla/lib-http": "file:./dev_modules/@ocdla/lib-http",
     "@ocdla/view": "file:./dev_modules/@ocdla/view",
     "@ocdla/global-components": "file:./dev_modules/@ocdla/global-components",
+    "@ocdla/lib-routing": "^1.0.0",
     "autoprefixer": "^10.4.19",
     "dotenv": "^16.4.5",
     "globals": "^15.6.0",
