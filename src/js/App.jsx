@@ -5,11 +5,24 @@ import Footer from "../components/Footer";
 import routes from "../data/routes.js";
 import Router from "@ocdla/lib-routing/src/Router.js";
 
-let router = new Router(routes);
+let router = new Router();
+router.setBasePath("/");
 router.setDefaultPage("Home");
+router.setNotFoundCallback("Home");
+// router.setComponentPath("../../../../src/components/pages");
+routes.forEach(route => {
+    router.addRoute(route.path, route.callback);
+});
+
+// component = NotFound
 
 
-let Page = await router.getPage();
+// let Page = await router.getPage();
+const [componentName] = router.match(
+    window.location.pathname
+);
+let module = await import(`../components/pages/${componentName}`);
+const Page = module.default;
 let HeaderTwo;
 
 if (["Home", ""].includes(router.getRoute())) {
