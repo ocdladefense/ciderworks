@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@ocdla/lib-http": "file:./dev_modules/@ocdla/lib-http",
-    "@ocdla/view": "file:./dev_modules/@ocdla/view",
+    "@ocdla/view": "~2.5.0",
     "@ocdla/global-components": "file:./dev_modules/@ocdla/global-components",
     "@ocdla/lib-routing": "^1.1.0",
     "autoprefixer": "^10.4.19",
