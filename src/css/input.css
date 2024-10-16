@@ -12,8 +12,14 @@
 
 
 @font-face {
+    font-family: 'Smoothy';
+    src: url(/src/fonts/smoothy-sans-regular.ttf) format('truetype');
+}
+
+
+@font-face {
     font-family: 'Smoothy Cursive';
-    src: url(/src/css/fonts/smoothy-sans-regular.ttf) format('truetype');
+    src: url(/src/fonts/smoothy-cursive.ttf) format('truetype');
 }
 
 
@@ -50,7 +56,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(/src/css/fonts/smoothy-sans-regular.ttf) format('truetype');
+    src: url(/src/fonts/smoothy-sans-regular.ttf) format('truetype');
   }
 
 

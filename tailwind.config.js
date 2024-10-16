@@ -22,7 +22,8 @@ module.exports = {
             serif: ["Tienne", ...defaultTheme.fontFamily.serif],
             "default-paragraph": ["Tienne"],
             "default-heading": ["Open Sans", ...defaultTheme.fontFamily.sans],
-            smoothy: ["Smoothy Cursive", ...defaultTheme.fontFamily.sans],
+            smoothy: ["Smoothy", ...defaultTheme.fontFamily.sans],
+            "smoothy-cursive": ["Smoothy Cursive", ...defaultTheme.fontFamily.sans],
             marketing: ["Marketing", ...defaultTheme.fontFamily.sans]
         },
         colors: {
