@@ -12,14 +12,14 @@ export default function Home() {
 
 
             <TwoColumnPanel heading="our philosophy" order="ltr">
-                <img src="../images/mockup/Photo_Section_1.png" class="rounded pb-8 " />
+                <img src="../images/mockup/stock-photo-1.png" class="rounded pb-8 " />
                 <p class="font-default-paragraph text-default-paragraph-black font-light subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Great cider starts with great ingredients. Our commitment to quality begins with sourcing the finest apples from local orchards. By partnering with growers who share our passion for sustainability and excellence, we ensure that every sip of our cider is a reflection of the rich, fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
                 </p>
             </TwoColumnPanel>
 
             <TwoColumnPanel heading="slow cider" order="rtl" striped>
-                <img src="../images/mockup/Photo_Section_2.png" class="rounded pb-8 " />
+                <img src="../images/mockup/stock-photo-2.png" class="rounded pb-8 " />
                 <p class="font-default-paragraph text-default-paragraph-black font-light subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     Patience is at the core of our cider-making process.
                     Unlike mass-produced ciders that rush through
@@ -32,7 +32,7 @@ export default function Home() {
             </TwoColumnPanel>
 
             <TwoColumnPanel heading="transparency" order="lrt">
-                <img src="../images/mockup/Photo_Section_3.png" class="rounded pb-8 " />
+                <img src="../images/mockup/stock-photo-3.png" class="rounded pb-8 " />
                 <p class="font-default-paragraph text-default-paragraph-black font-light subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
                     We take pride in our transparent production practices.
                     From apple to bottle, we invite you to see every step of
