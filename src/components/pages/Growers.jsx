@@ -13,10 +13,10 @@ export default function Growers() {
             </ContentPanel>
 
 
-            <TwoColumnPanel heading="grower a" order="ltr">
+            <TwoColumnPanel heading="Crooked Row Orchards, Corvallis, OR" order="ltr">
                 <img src="../images/sample.png" class="rounded pb-8 object-cover mx-auto" />
                 <p class=" text-default-paragraph-black font-light subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
-                    Eleifend sociosqu sapien magna rhoncus, duis a vel dictum? Posuere volutpat mollis nullam id commodo blandit. Aenean quam interdum odio ut metus rhoncus torquent. Rhoncus curabitur nostra consectetur pharetra auctor pretium augue dui amet. Elementum vivamus sem sit etiam sit mus congue. Ullamcorper ridiculus class, sed phasellus commodo tempus hac. Volutpat vivamus placerat ridiculus vulputate mauris parturient fringilla augue! Mattis torquent cursus praesent a bibendum nam. Consequat ad dignissim elit cursus integer.
+                    Our own nanoscale orchard, with a couple hundred dwarf Herefordshire Redstreak Trees, and a number of other semi-dwarf varieties we are evaluating for single varietal runs and other unique options. Our Estate blend comes exclusively from our own orchards, blended from these trees.
                 </p>
             </TwoColumnPanel>
             <TwoColumnPanel heading="grower b" order="rtl">
