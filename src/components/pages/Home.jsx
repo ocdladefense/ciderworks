@@ -15,8 +15,9 @@ export default function Home() {
 
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>wcw ciders. corvallis' own dry cider.</h3>
-                        <p class={`text-sunshine-dark font-marketing`}>introducing the family of waldbusser ciderworks (wcw) dry ciders<br />dry cider fermented right here in corvallis, oregon </p>
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>introducing waldbusser ciderworks</h3>
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] laptop:text-[3rem] mb-0 content-heading font-marketing`}>corvallis' own dry cider.</h3>
+                        <p class={`text-sunshine-dark font-marketing`}>introducing the waldbusser ciderworks family of dry ciders<br />slow-fermented right here in the willamette valley, usa</p>
                     </div>
 
                     <div class="container-none tablet:container mx-auto h-full gap-6 laptop:gap-8 row-span-4">
@@ -28,10 +29,10 @@ export default function Home() {
             </section>
 
 
-            <TwoColumnPanel heading="our philosophy" order="ltr">
+            <TwoColumnPanel heading="great cider starts local" order="ltr">
                 <img src="../images/mockup/stock-photo-1.png" class="rounded pb-8 " />
                 <p class="font-default-paragraph text-default-paragraph-black font-medium subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
-                    Great cider starts with great ingredients. Our commitment to quality begins with sourcing the finest apples from local orchards. By partnering with growers who share our passion for sustainability and excellence, we ensure that every sip of our cider is a reflection of the rich, fertile Oregon landscape. <a href="/growers">Meet the Growers.</a>
+                    Great cider starts with great ingredients. Our commitment to quality begins with sourcing the finest apples from local orchards. By partnering with growers who share our passion for sustainability and excellence, we ensure that every sip of our cider is a reflection of the rich, fertile Oregon landscape. <a href="/growers" style="text-decoration:underline;">Meet the Growers.</a>
                 </p>
             </TwoColumnPanel>
 
