@@ -14,8 +14,8 @@ export default function Ciders() {
 
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>dry cider. delicious.</h3>
-                        <p class={`text-sunshine-dark font-marketing`}>introducing the family of dry ciders, fermented right here in corvallis, oregon </p>
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>waldbusser ciderworks</h3>
+                        <p class={`text-sunshine-dark font-marketing`}>local. dry.<br />introducing the family of wcw dry ciders, fermented right here in corvallis, oregon </p>
                     </div>
 
                     <div class="container-none tablet:container laptop:container mx-auto h-full gap-6 laptop:gap-8 row-span-4">
