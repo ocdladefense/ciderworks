@@ -48,7 +48,7 @@ export default function Navigation() {
     let top = items.map(item => {
         let phoneDisplay = !!item.hidden ? "hidden phone:hidden tablet:inline-block" : "phone:inline-block";
         return (
-            <li class={`hidden ${phoneDisplay} p-2`}>
+            <li class={`hidden ${phoneDisplay} p-2 laptop:p-6`}>
                 <a href={item.url}>
                     <button class={`font-marketing text-base subpixel-antialiased hover:text-wb-cordovan`}>{item.label}</button>
                 </a>
@@ -60,7 +60,7 @@ export default function Navigation() {
     let all = items.map(item => {
         // let phoneDisplay = !!item.hidden ? "hidden phone:hidden tablet:inline-block" : "phone:inline-block";
         return (
-            <li class="p-2 text-center">
+            <li class="p-3 text-center laptop:px-4">
                 <a href={item.url}>
                     <button class="text-center font-marketing text-base subpixel-antialiased hover:text-wb-cordovan">{item.label}</button>
                 </a>
@@ -74,9 +74,9 @@ export default function Navigation() {
 
             <ul class="inline-block">
 
-                <li style="vertical-align:middle;" class="inline-block p-2">
+                <li style="vertical-align:middle;" class="inline-block p-3 laptop:px-4">
                     <a href="/">
-                        <img style="inline-block vertical-align:middle;" width="30" height="30" src="../images/logos/logo.svg" />
+                        <img class="w-[30px] h-[30px] laptop:w-[48px] laptop:h-[48px]" style="inline-block vertical-align:middle;" src="../images/logos/logo.svg" />
                     </a>
                 </li>
 
