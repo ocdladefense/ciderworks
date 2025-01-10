@@ -11,6 +11,23 @@ export default function Home() {
                 </section> */}
 
 
+            <section style="position:relative;" class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+
+                <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
+                    <div class="container row-span-1 laptop:mx-0">
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>wcw ciders. corvallis' own dry cider.</h3>
+                        <p class={`text-sunshine-dark font-marketing`}>introducing the family of waldbusser ciderworks (wcw) dry ciders<br />dry cider fermented right here in corvallis, oregon </p>
+                    </div>
+
+                    <div class="container-none tablet:container mx-auto h-full gap-6 laptop:gap-8 row-span-4">
+                        <div class="subpixel-antialiased col-span-1 p-8">
+                            <img src="../images/bottles/bottles.png" class="rounded pb-8 object-cover" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             <TwoColumnPanel heading="our philosophy" order="ltr">
                 <img src="../images/mockup/stock-photo-1.png" class="rounded pb-8 " />
                 <p class="font-default-paragraph text-default-paragraph-black font-medium subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">

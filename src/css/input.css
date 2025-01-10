@@ -26,7 +26,7 @@
 
 @media screen and (min-width:1024px) {
     section div.container {
-        max-width: 70%;
+        max-width: 80%;
     }
     /*
     main:not(.ciders, .drink, .order-progress) {
