@@ -15,8 +15,8 @@ export default function Home() {
 
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>introducing waldbusser ciderworks</h3>
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] laptop:text-[3rem] mb-0 content-heading font-marketing`}>corvallis' own dry cider.</h3>
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>waldbusser ciderworks</h3>
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] phone:text-[3rem] mb-0 content-heading font-marketing`}>corvallis' own dry cider.</h3>
                         <p class={`text-sunshine-dark font-marketing`}>introducing the waldbusser ciderworks family of dry ciders<br />slow-fermented right here in the willamette valley, usa</p>
                     </div>
 
