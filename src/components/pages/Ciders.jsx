@@ -14,8 +14,8 @@ export default function Ciders() {
 
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
                     <div class="container row-span-1 laptop:mx-0">
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>slow cider. made dry.</h3>
-                        <p class={`text-sunshine-dark font-marketing`}>introducing the waldbusser ciderworks family dry ciders, fermented right here in corvallis, oregon </p>
+                        <h2 class={`text-sunshine-light subpixel-antialiased phone:text-[1.5rem] tablet:text-[3.0rem] mb-0 content-heading font-marketing`}>slow cider.<br />made dry.</h2>
+                        <p class={`text-sunshine-dark font-marketing`}>waldbusser ciderworks dry ciders<br />fermented right here in corvallis, oregon </p>
                     </div>
 
                     <div class="container-none tablet:container laptop:container mx-auto h-full gap-6 laptop:gap-8 row-span-4">
@@ -49,7 +49,7 @@ export default function Ciders() {
                         </div>
                         <div class="subpixel-antialiased col-span-2">
 
-                            <p class="text-sunshine-dark font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] font-semibold">
+                            <p class="text-sunshine-dark font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
                                 An early-morning, weekend-brunch, day-drinking, post-work- out, pre-dinner, just-put- the-kids-to-bed, ‘I’ll take one more’ kind of cider. Bright, citrusy and hibis- cus notes, tiny bubbles and a sessionable 6.5% ABV make this an instant must- have to your warm-weather beverage repertoire.
                             </p>
                         </div>
@@ -77,7 +77,7 @@ export default function Ciders() {
                         </div>
                         <div class="subpixel-antialiased col-span-2">
                             <p class={`text-burst-dark font-marketing`}>all heritage apples</p>
-                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] font-semibold">
+                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] ">
                                 An early-morning, weekend-brunch, day-drinking, post-work- out, pre-dinner, just-put- the-kids-to-bed, ‘I’ll take one more’ kind of cider. Bright, citrusy and hibis- cus notes, tiny bubbles and a sessionable 6.5% ABV make this an instant must- have to your warm-weather beverage repertoire.
                             </p>
                         </div>
@@ -104,7 +104,7 @@ export default function Ciders() {
                         <div class="subpixel-antialiased col-span-2">
 
                             <p class={`text-burst-dark font-marketing`}>balanced heritage and dessert apples</p>
-                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] font-semibold">
+                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] ">
                                 An early-morning, weekend-brunch, day-drinking, post-work- out, pre-dinner, just-put- the-kids-to-bed, ‘I’ll take one more’ kind of cider. Bright, citrusy and hibis- cus notes, tiny bubbles and a sessionable 6.5% ABV make this an instant must- have to your warm-weather beverage repertoire.
                             </p>
                         </div>
@@ -129,7 +129,7 @@ export default function Ciders() {
                         </div>
                         <div class="subpixel-antialiased col-span-2">
                             <p class={`text-burst-dark font-marketing`}>quince and apples</p>
-                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] font-semibold">
+                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] ">
                                 An early-morning, weekend-brunch, day-drinking, post-work-out, pre-dinner, just-put-the-kids-to-bed, ‘I’ll take one more’ kind of cider. Bright, citrusy and hibiscus notes, tiny bubbles and a sessionable 6.5% ABV make this an instant must-have to your warm-weather beverage repertoire.
                             </p>
                         </div>
@@ -155,7 +155,7 @@ export default function Ciders() {
                         </div>
                         <div class="subpixel-antialiased col-span-2">
                             <p class={`text-burst-dark font-marketing`}>quince and apples</p>
-                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] font-semibold">
+                            <p class="text-burst-light font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] ">
                                 Using only apples from our nano-orchard this blend is as local as local can be!
                             </p>
                         </div>

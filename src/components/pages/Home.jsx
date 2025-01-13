@@ -14,15 +14,16 @@ export default function Home() {
             <section style="position:relative;" class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
 
                 <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
-                    <div class="container row-span-1 laptop:mx-0">
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>waldbusser ciderworks</h3>
-                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] phone:text-[3rem] mb-0 content-heading font-marketing`}>corvallis' own dry cider.</h3>
+                    <div class="container row-span-1 text-center mx-auto">
+                        <h3 class="text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing leading-[35px] mb-4">waldbusser ciderworks</h3>
+                        <h3 class={`phone:hidden tablet:block text-sunshine-light subpixel-antialiased text-[2rem] phone:text-[3rem] mb-0 content-heading font-marketing leading-[52px]`}>corvallis' own dry cider.</h3>
+                        <h3 class={`tablet:hidden text-sunshine-light subpixel-antialiased text-[2rem] phone:text-[3rem] mb-0 content-heading font-marketing leading-[52px] text-center`}>corvallis<br />has its<br />own<br />dry cider</h3>
                         <p class={`text-sunshine-dark font-marketing`}>introducing the waldbusser ciderworks family of dry ciders<br />slow-fermented right here in the willamette valley, usa</p>
                     </div>
 
                     <div class="container-none tablet:container mx-auto h-full gap-6 laptop:gap-8 row-span-4">
                         <div class="subpixel-antialiased col-span-1 p-8">
-                            <img src="../images/bottles/bottles.png" class="rounded pb-8 object-cover" />
+                            <img src="../images/bottles/bottles.png" class="mx-auto rounded pb-8 object-cover" />
                         </div>
                     </div>
                 </div>
@@ -31,7 +32,7 @@ export default function Home() {
 
             <TwoColumnPanel heading="great cider starts local" order="ltr">
                 <img src="../images/mockup/stock-photo-1.png" class="rounded pb-8 " />
-                <p class="font-default-paragraph text-default-paragraph-black font-medium subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
+                <p class="font-default-paragraph text-default-paragraph-black font-medium subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px] font-semibold">
                     Great cider starts with great ingredients. Our commitment to quality begins with sourcing the finest apples from local orchards. By partnering with growers who share our passion for sustainability and excellence, we ensure that every sip of our cider is a reflection of the rich, fertile Oregon landscape. <a href="/growers" style="text-decoration:underline;">Meet the Growers.</a>
                 </p>
             </TwoColumnPanel>
