@@ -14,6 +14,36 @@ _Note: A secret is necessary to utilitze GitHub's Deploy to GitHub Pages functio
 4. Run <code>npm run build</code>.
 5. Optionally, preview the base website using <code>npm run watch</code>.
 
+
+
+
+## Sales - where to buy
+Mino shopper - 
+Press then press
+- Affiliate link to a thrid-party sales site (direct to consumer)
+- thebierelibrary - 
+
+
+
+Remove smaller header logo -
+
+Use same header color for footer menu links.
+no need for WCW heading in footer
+footer text ofr slow 
+- retrieve additional font wieghts for the "standard" font from Google.
+
+- heading one: slow cider
+- heading two: made dry
+
+
+- merchandise links and photos
+- waldbusser = lover of trees
+- some percentage of proceeds go to land conservation
+- favicons
+- homepage - below the fold first thing needs to be centered and oliver will choose a secondary color this stripe.
+- 
+
+
 ## Halt and Catch Fire (HCF)
 * Content: what is quince?  what are dessert apples?
 * How is this distinguished from other ciders?
