@@ -10,8 +10,6 @@ module.exports = env => {
         mode: "development",
         entry: {
             app: path.resolve(__dirname, "./src/js/index.js")
-            // helper: path.resolve(__dirname, './src/js/helper.js')
-            // init_head: path.resolve(__dirname, "src/js/custom-elements.js")
         },
         snapshot: {
             managedPaths: ["/node_modules"],
