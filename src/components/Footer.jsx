@@ -1,6 +1,3 @@
-
-
-
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
 import Legal from "@ocdla/global-components/src/Legal";
@@ -18,20 +15,12 @@ export default function Footer() {
 
 
     return (
-        <footer class="text-slate-200 bg-wb-black p-8 tablet:p-16 laptop:p-32 laptop:pt-16">
+        <footer class="text-slate-200 bg-wb-black p-8 tablet:p-16 laptop:p-32 laptop:pt-32">
 
 
-            {/*
-            <section class="shape-section">
-                <div class="container diamond-shape">
-                    <div class="item-count">99</div>
-                </div>
-            </section>
-*/}
 
             <div class="container text-slate-200 text-center text-4xl mb-20" style="line-height:1.0rem;">
-                <span class="font-smoothy-cursive text-slate-300 inline-block">Slow</span>&nbsp;<span class="font-marketing text-xl text-slate-300 inline-block">cider</span>
-                <span class="pl-8 font-smoothy-cursive text-slate-300 inline-block">Made</span>&nbsp;<span class="font-marketing text-xl text-slate-300 inline-block">dry</span>
+                <span style="transform: rotate(-2.5deg);color: rgba(255, 255, 255, 0.6)" class="font-smoothy-cursive inline-block">Slow&nbsp;Cider&nbsp;Made&nbsp;Dry</span>
             </div>
 
             <div class="container tablet:grid tablet:grid-cols-6">
@@ -44,7 +33,7 @@ export default function Footer() {
 
                 <div class="col-start-3 pb-8">
                     <h3 class="text-wb-red text-lg">Contact</h3>
-                    <ul class="text-slate-400">
+                    <ul class="text-base">
                         <li>George Waldbusser</li>
                         <li><a href="http://ciderworks.ocdla.org/" class="hover:text-wb-lime">waldbusserciderworks.com</a></li>
                         <li><a href="tel:+14106101726" class="hover:text-wb-lime">(410) 610-1726</a></li>
@@ -53,8 +42,8 @@ export default function Footer() {
                     <Social instagram="waldbusserciderworks" />
                 </div>
 
-                <Sitemap className="col-start-5 text-nowrap text-stone-400 pb-8" style="font-weight:200;">
-                    <SitemapCategory title="Waldbusser Ciderworks" path="/" className="hover:text-stone-500"
+                <Sitemap className="col-start-5 text-nowrap text-base pb-8" style="font-weight:200;">
+                    <SitemapCategory title="Waldbusser Ciderworks" path="/" className="text-base hover:text-stone-500"
                         Home="/"
                         About="/about"
                         How_Its_Made="/how-its-made"
