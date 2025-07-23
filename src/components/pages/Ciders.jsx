@@ -5,6 +5,21 @@ import Cider from "../Cider";
 import "../../css/ciders.css";
 
 
+
+/*
+Special releases by July 15
+
+
+    - Blonde cider, and
+
+
+        - QR - Flagship releases are what the four varietals
+
+
+            - Future releases
+*/
+
+
 export default function Ciders() {
     return (
         <>
@@ -27,11 +42,60 @@ export default function Ciders() {
             </section>
 
 
+            <section style="position:relative;" class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+
+                <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
+                    <div class="container row-span-1 laptop:mx-0">
+                        <h2 class="text-sunshine-light subpixel-antialiased phone:text-[1.5rem] tablet:text-[3.0rem] mb-0 content-heading font-marketing">Inaugural Ciders</h2>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* <!-- begin inaugural ciders --> */}
+
+            <section style="position:relative;" class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+
+
+                <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
+                    <div class="container row-span-1 laptop:mx-0">
+                        <h3 class={`text-sunshine-light subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing`}>imperial amber</h3>
+                        <p class={`text-sunshine-dark font-marketing`}>a bold, dry heritage cider</p>
+                    </div>
+
+                    <div class="container-none tablet:grid laptop:container mx-auto h-full tablet:grid-cols-3 gap-6 laptop:gap-8 tablet:grid-flow-row row-span-4">
+
+
+                        <div class="col-span-1 laptop:flex laptop:justify-self-start">
+                            <img src="../images/labels/inaugural-amber.png" class="rounded pb-8 object-cover mx-auto" />
+                        </div>
+                        <div class="subpixel-antialiased col-span-2">
+
+                            <p class="text-sunshine-dark font-default-paragraph subpixel-antialiased text-lg mx-auto laptop:mx-0 laptop:w-full laptop:text-[17px]">
+                                Imperial Amber is a special release commemorating one of two first commercial batches we produced. It is a bold, round, and full-flavored cider featuring Brown Snout and Roxbury Russet apples from Wombat Flats Farm in Corvallis, OR. Employing French wine making techniques of Sur Lie  (extended aging on lees), and Bâtonnage (stirring the lees), the cider has a complex flavor and refined taste, while being fermented fully dry.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
 
 
 
+            {/* <!-- end inaugural ciders --> */}
 
+
+            <section style="position:relative;" class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
+                <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto">
+                    <div class="container row-span-1 laptop:mx-0">
+                        <h2 class="text-sunshine-light subpixel-antialiased phone:text-[1.5rem] tablet:text-[3.0rem] mb-0 content-heading font-marketing">Flagship Ciders</h2>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* <!-- begin varietals --> */}
             <section style="position:relative;" class={`fullscreen bg-sunshine laptop:min-w-[800px] p-8 gap-0 tablet:place-items-start mb-16 tablet:my-22`}>
 
 
