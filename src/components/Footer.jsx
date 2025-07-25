@@ -19,7 +19,14 @@ export default function Footer() {
 
 
 
-            <div class="container text-slate-200 text-center text-4xl mb-20" style="line-height:1.0rem;">
+
+            <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto pb-8 text-base">
+                <h2 class="text-center mx-auto subpixel-antialiased text-[4rem] mb-0 content-heading font-marketing tracking-wider leading-[35px] mb-4">waldbusser</h2>
+                <h3 class="text-center mx-auto subpixel-antialiased text-[2rem] mb-0 content-heading font-marketing tracking-wider leading-[35px] mb-4">ciderworks</h3>
+
+            </div>
+
+            <div class="container tablet:max-w-[90%] laptop:max-w-[80%] tablet:mx-auto pb-8 text-center text-6xl mb-20" style="line-height:1.0rem;">
                 <span style="transform: rotate(-2.5deg);color: rgba(255, 255, 255, 0.6)" class="font-smoothy-cursive inline-block">Slow&nbsp;Cider&nbsp;Made&nbsp;Dry</span>
             </div>
 
@@ -56,7 +63,7 @@ export default function Footer() {
 
             </div>
 
-        </footer >
+        </footer>
     );
 }
 

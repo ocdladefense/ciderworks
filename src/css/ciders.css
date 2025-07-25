@@ -47,3 +47,8 @@
   vertical-align: middle;
 	width:60px;
 }
+
+
+.vs-products-parent .vs-products-item-stage {
+    background-color: transparent !important;
+}
