@@ -1,6 +1,6 @@
 /** @jsx vNode */
 import { vNode } from "@ocdla/view";
-import Link from "@ocdla/global-components/src/Defaults";
+import Link from "./Defaults";
 
 // <li class="size-full"> This was wrapping the entire return. We may need to keep size-full when using this.
 // [{title: "SERVICES", links: [{href="/", label: "Membership Directory"}, {} ]}, {}]
