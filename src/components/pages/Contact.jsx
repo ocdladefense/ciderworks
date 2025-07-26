@@ -1,7 +1,7 @@
 /** @jsx vNode */ /** @jsxFrag "Fragment" */
 import { vNode, View } from "@ocdla/view";
-import Social from "@ocdla/global-components/src/Social";
-import Logo from "@ocdla/global-components/src/Logo";
+import Social from "../src/Social";
+import Logo from "../src/Logo";
 import ContentPanel from "../ContentPanel";
 import TwoColumnPanel from "../TwoColumnPanel";
 
@@ -22,10 +22,6 @@ export default function Contact() {
                             <label class="block">Name</label>
                             <input type="text" size="45" />
                         </div>
-
-
-
-
 
                         <div class="py-4">
                             <label class="block">Email</label>

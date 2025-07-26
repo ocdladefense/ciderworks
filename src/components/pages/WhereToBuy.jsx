@@ -2,7 +2,7 @@
 import { vNode, View } from "@ocdla/view";
 import StoreHub from "../stores/StoreHub";
 import StoreLocation from "../stores/StoreLocation";
-import GoogleMaps from "@ocdla/global-components/src/GoogleMaps";
+import GoogleMaps from "../src/GoogleMaps";
 
 
 import ZipcodeSearch from "../stores/ZipcodeSearch";
