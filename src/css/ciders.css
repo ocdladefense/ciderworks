@@ -52,3 +52,7 @@
 .vs-products-parent .vs-products-item-stage {
     background-color: transparent !important;
 }
+
+.vs-products ul {
+    margin: 10px 0;
+}
